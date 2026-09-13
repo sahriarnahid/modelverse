@@ -1,12 +1,9 @@
-import { env } from "cloudflare:workers";
-import { models } from "../../lib/catalog.js";
+import { models } from "../../src/lib/catalog.js";
 import {
   DEFAULT_MODEL,
   FALLBACK_MODELS,
   generateGeminiJson,
-} from "../../lib/gemini.js";
-
-export const prerender = false;
+} from "../../src/lib/gemini.js";
 
 const CACHE_TTL = 6 * 60 * 60 * 1000;
 const cache = new Map();
@@ -22,9 +19,8 @@ const SYSTEM_PROMPT =
   "You are ModelVerse's recommendation engine for developers who vibe code. " +
   "Be practical, cost-aware, and concise. Always answer with valid JSON.";
 
-function modelChain() {
-  const configured =
-    env?.GEMINI_MODEL || import.meta.env.GEMINI_MODEL || DEFAULT_MODEL;
+function modelChain(env) {
+  const configured = env?.GEMINI_MODEL || DEFAULT_MODEL;
   const chain = [
     ...new Set([preferredModel, configured, ...FALLBACK_MODELS].filter(Boolean)),
   ];
@@ -91,7 +87,7 @@ function normalizePick(pick) {
   };
 }
 
-export async function POST({ request }) {
+export async function onRequestPost({ request, env }) {
   let body;
   try {
     body = await request.json();
@@ -116,15 +112,12 @@ export async function POST({ request }) {
     return json(cached.pick);
   }
 
-  const apiKey =
-    env?.GEMINI_API_KEY ||
-    (import.meta.env.DEV ? import.meta.env.GEMINI_API_KEY : undefined);
-
+  const apiKey = env?.GEMINI_API_KEY;
   if (!apiKey) {
     return json({ error: "not_configured" }, 503);
   }
 
-  const chain = modelChain();
+  const chain = modelChain(env);
   if (!chain.length) {
     return json({ error: "rate_limited", retryIn: cooldownRemaining() }, 429);
   }

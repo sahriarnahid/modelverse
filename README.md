@@ -21,38 +21,36 @@ Open http://localhost:4321
 npm run build
 ```
 
-The build produces a Cloudflare Worker in `dist/server` plus static assets in
-`dist/client`.
+The build produces a static site in `dist/`. The AI endpoint lives in
+`functions/` and is picked up automatically by Cloudflare Pages.
 
-## Deploy free (Cloudflare Workers)
+## Deploy free (Cloudflare Pages)
 
-### Git integration — recommended
-
-1. Push this repo to GitHub.
-2. Cloudflare dashboard → **Workers & Pages** → **Create** → **Workers** →
+1. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** →
    **Connect to Git**.
-3. Select the repo and set:
+2. Select the repo and set:
    - **Build command:** `npm run build`
-   - **Deploy command:** `npx wrangler deploy --config dist/server/wrangler.json`
-4. Add environment variable `GEMINI_API_KEY` (type: **Secret**) in the Worker
-   settings.
-5. Deploy. You get a free `modelverse.<your-subdomain>.workers.dev` URL.
+   - **Build output directory:** `dist`
+3. Add environment variable `GEMINI_API_KEY` (type: **Secret**).
+4. Deploy. You get a free `modelverse.pages.dev` URL.
 
 Every push — including the nightly refresh commits — rebuilds and redeploys
 automatically.
 
-### From this machine
+### Local testing
 
 ```bash
-npx wrangler login
 npm run build
-npm run deploy
+npm run pages:dev
 ```
+
+`npm run pages:dev` serves the built site and runs the AI endpoint locally using
+the key from `.dev.vars`.
 
 ### Domain
 
-`*.workers.dev` is free. A custom domain (e.g. `modelverse.dev`) has to be
-purchased (~$10/year) and added under Worker → Settings → Domains & Routes.
+`*.pages.dev` is free. A custom domain can be added under the Pages project →
+**Custom domains** (for external zones like is-a.dev, use the Cloudflare API).
 
 ## Project layout
 
