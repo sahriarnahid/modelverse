@@ -5,8 +5,8 @@
   "pickChanges": [
     {
       "category": "Best for long context",
-      "from": "GPT-5.6 Terra",
-      "to": "Claude Opus 5"
+      "from": "Claude Opus 5",
+      "to": "GPT-5.6 Terra"
     }
   ]
 }
