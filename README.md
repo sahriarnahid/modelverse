@@ -32,7 +32,7 @@ automatically. To deploy manually:
 ```bash
 npm run build
 npm run pages:dev          # local preview with the AI endpoint
-npx wrangler pages deploy dist --project-name modelversedev
+npx wrangler pages deploy dist --project-name modelverse-app
 ```
 
 For the automated deploy, the repository needs these Actions secrets:
