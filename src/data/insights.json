@@ -5,32 +5,32 @@
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Excels at terminal agents and whole-repo refactors with a 1M context for $2 input and $10 output per 1M tokens."
+      "reason": "Offers exceptional coding performance for terminal agents and whole-repo refactors at $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
       "model": "GLM-5.3-Flash",
-      "reason": "Offers the lowest combined price in the catalog at $0.075 input and $0.25 output per 1M tokens."
+      "reason": "Provides the lowest combined cost in the catalog at just $0.075 per 1M input and $0.25 per 1M output tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers daily coding agent capabilities and reasoning for just $0.435 input and $0.87 output per 1M tokens."
+      "reason": "Delivers daily coding agent reasoning on a budget with 1M context for only $0.435 input and $0.87 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Provides top-tier complex reasoning and research-heavy work across a 1,050,000 token context."
+      "reason": "Excels at complex reasoning and research-heavy tasks within a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-5.6 Luna",
-      "reason": "Combines a 1,050,000 token context with affordable pricing of $0.20 input and $1.20 output per 1M tokens."
+      "model": "GPT-5.6 Terra",
+      "reason": "Handles extensive tasks seamlessly with a massive 1,050,000 token context window and balanced pricing."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly supports free-tier learning alongside fast iteration and a 1,048,576 token context."
+      "reason": "Specifically designated for free-tier learning and fast iteration while supporting a 1,048,576 token context."
     }
   ]
 }
