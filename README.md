@@ -49,7 +49,7 @@ redeploys.
 ### Domain
 
 `*.pages.dev` is free. A custom domain can be added under the Pages project →
-**Custom domains** (for external zones like is-a.dev, use the Cloudflare API).
+**Custom domains**.
 
 ## Project layout
 
