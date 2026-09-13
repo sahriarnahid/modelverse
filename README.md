@@ -21,15 +21,38 @@ Open http://localhost:4321
 npm run build
 ```
 
-Static pages land in `dist/` and the AI endpoint is bundled as a Cloudflare
-function. Deploy to **Cloudflare Pages** (free) via the Git integration or:
+The build produces a Cloudflare Worker in `dist/server` plus static assets in
+`dist/client`.
+
+## Deploy free (Cloudflare Workers)
+
+### Git integration — recommended
+
+1. Push this repo to GitHub.
+2. Cloudflare dashboard → **Workers & Pages** → **Create** → **Workers** →
+   **Connect to Git**.
+3. Select the repo and set:
+   - **Build command:** `npm run build`
+   - **Deploy command:** `npx wrangler deploy --config dist/server/wrangler.json`
+4. Add environment variable `GEMINI_API_KEY` (type: **Secret**) in the Worker
+   settings.
+5. Deploy. You get a free `modelverse.<your-subdomain>.workers.dev` URL.
+
+Every push — including the nightly refresh commits — rebuilds and redeploys
+automatically.
+
+### From this machine
 
 ```bash
-npx wrangler pages deploy dist
+npx wrangler login
+npm run build
+npm run deploy
 ```
 
-Netlify and Vercel work too, but the adapter in `astro.config.mjs` is
-Cloudflare's.
+### Domain
+
+`*.workers.dev` is free. A custom domain (e.g. `modelverse.dev`) has to be
+purchased (~$10/year) and added under Worker → Settings → Domains & Routes.
 
 ## Project layout
 
