@@ -26,26 +26,25 @@ The build produces a static site in `dist/`. The AI endpoint lives in
 
 ## Deploy free (Cloudflare Pages)
 
-1. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** →
-   **Connect to Git**.
-2. Select the repo and set:
-   - **Build command:** `npm run build`
-   - **Build output directory:** `dist`
-3. Add environment variable `GEMINI_API_KEY` (type: **Secret**).
-4. Deploy. You get a free `modelverse.pages.dev` URL.
-
-Every push — including the nightly refresh commits — rebuilds and redeploys
-automatically.
-
-### Local testing
+The nightly GitHub Action builds and deploys the site, so updates go live
+automatically. To deploy manually:
 
 ```bash
 npm run build
-npm run pages:dev
+npm run pages:dev          # local preview with the AI endpoint
+npx wrangler pages deploy dist --project-name modelversedev
 ```
 
-`npm run pages:dev` serves the built site and runs the AI endpoint locally using
-the key from `.dev.vars`.
+For the automated deploy, the repository needs these Actions secrets:
+
+| Secret | Purpose |
+| --- | --- |
+| `GEMINI_API_KEY` | AI picks and the stack recommender |
+| `CLOUDFLARE_API_TOKEN` | Pages deploy (Account → Cloudflare Pages → Edit) |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare account ID |
+
+Every push to `main` and every nightly run refreshes the data, commits it, and
+redeploys.
 
 ### Domain
 
