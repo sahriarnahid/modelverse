@@ -1,0 +1,30 @@
+---
+import SectionHead from "../SectionHead.astro";
+import { sources } from "../../data/sources.js";
+---
+
+<section id="sources">
+  <div class="wrap">
+    <SectionHead
+      kicker="Sources"
+      title="Where the data comes from."
+      sub="Prices change weekly. These are the pages we check first."
+    />
+    <div class="grid grid-3">
+      {
+        sources.map((source) => (
+          <a
+            class="card provider-tile"
+            href={source.url}
+            target="_blank"
+            rel="noreferrer"
+            style="text-decoration: none"
+          >
+            <span class="p-name">{source.name} ↗</span>
+            <span class="p-note">{source.note}</span>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</section>

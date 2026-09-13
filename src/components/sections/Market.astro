@@ -1,0 +1,112 @@
+---
+import SectionHead from "../SectionHead.astro";
+import {
+  marketRows,
+  stats,
+  priceBreakdown,
+  pricesUpdated,
+} from "../../lib/catalog.js";
+import { fmtPrice, fmtCtx } from "../../lib/format.js";
+
+const { modelCount, labCount, agentCount, cheapest, priciest, priceGap } = stats;
+---
+
+<section id="market">
+  <div class="wrap">
+    <SectionHead
+      kicker="The market"
+      title="Every model, one table."
+      sub={`The ${modelCount} catalog models plus every release from the ${labCount} tracked labs in the last 120 days. Newest first. Verified ${pricesUpdated}.`}
+    />
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Lab</th>
+            <th>Released</th>
+            <th>In $/1M</th>
+            <th>Out $/1M</th>
+            <th>Context</th>
+            <th>Card</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            marketRows.map((row) => (
+              <tr>
+                <td>{row.name}</td>
+                <td>{row.provider}</td>
+                <td class="num">{row.released ?? "—"}</td>
+                <td class="num num-in">{fmtPrice(row.input)}</td>
+                <td class="num num-out">{fmtPrice(row.output)}</td>
+                <td class="num num-context">
+                  {row.context ? fmtCtx(row.context) : "—"}
+                </td>
+                <td class="num">{row.tracked ? "★" : "—"}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <p class="hint" style="margin-top: 1rem">
+      ★ marks the models with a full card above. The rest came from the nightly
+      lab scan.
+    </p>
+
+    <div style="height: 3rem"></div>
+    <span class="kicker">By the numbers</span>
+    <div class="grid grid-4">
+      <div class="card stat">
+        <div class="stat-num">{modelCount}</div>
+        <div class="stat-label">models tracked</div>
+      </div>
+      <div class="card stat">
+        <div class="stat-num">{labCount}</div>
+        <div class="stat-label">labs covered</div>
+      </div>
+      <div class="card stat">
+        <div class="stat-num">{agentCount}</div>
+        <div class="stat-label">agents compared</div>
+      </div>
+      <div class="card stat">
+        <div class="stat-num">{fmtPrice(cheapest.input + cheapest.output)}</div>
+        <div class="stat-label">cheapest 1M in + out ({cheapest.name})</div>
+      </div>
+    </div>
+
+    <div class="bar-chart" data-bar-chart>
+      <span class="kicker">Output price per 1M tokens</span>
+      {
+        priceBreakdown.map((row, index) => (
+          <div class="bar-row">
+            <span class="bar-label">{row.name}</span>
+            <div class="bar-track">
+              <div
+                class="bar-fill"
+                data-bar
+                data-target={row.width}
+                style={`width: ${row.width}%; transition-delay: ${index * 55}ms`}
+              />
+            </div>
+            <span class="bar-value">{row.label}</span>
+          </div>
+        ))
+      }
+    </div>
+
+    <p class="hint" style="margin-top: 1.5rem">
+      A {priceGap}x gap between the cheapest output ({cheapest.name} at{" "}
+      {fmtPrice(cheapest.output)}) and the priciest ({priciest.name} at{" "}
+      {fmtPrice(priciest.output)}).
+    </p>
+  </div>
+</section>
+
+<script>
+  import { initBarChart } from "../../scripts/bar-chart.js";
+  initBarChart();
+</script>

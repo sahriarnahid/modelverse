@@ -1,0 +1,42 @@
+---
+import SectionHead from "../SectionHead.astro";
+import { models, compareDefaults } from "../../lib/catalog.js";
+---
+
+<section id="compare">
+  <div class="wrap">
+    <SectionHead
+      kicker="Head to head"
+      title="Compare models side by side."
+      sub="Pick up to three models. The winner of every row gets a star."
+    />
+    <div class="compare-pickers">
+      {
+        [0, 1, 2].map((index) => (
+          <select
+            class="compare-select"
+            data-compare-select={index}
+            aria-label={`Model ${index + 1}`}
+          >
+            {models.map((model) => (
+              <option
+                value={model.name}
+                selected={model.name === compareDefaults[index]}
+              >
+                {model.name}
+              </option>
+            ))}
+          </select>
+        ))
+      }
+    </div>
+    <div class="table-wrap">
+      <table id="compare-table"></table>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { initCompare } from "../../scripts/compare.js";
+  initCompare();
+</script>

@@ -1,0 +1,79 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import {
+  themeIds,
+  darkThemeIds,
+  lightThemeIds,
+  defaultTheme,
+} from "../data/themes.js";
+
+const {
+  title = "ModelVerse — The AI model market, finally makes sense",
+  description = "Compare AI models, agents, and prices. Track what dropped, what it costs, and what is best for vibe coding.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-theme={defaultTheme}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      is:inline
+      define:vars={{ themeIds, darkThemeIds, lightThemeIds, defaultTheme }}
+    >
+      (function () {
+        try {
+          var fromUrl = null;
+          try {
+            fromUrl = new URLSearchParams(window.location.search).get("theme");
+          } catch (error) {}
+          var theme =
+            themeIds.indexOf(fromUrl) >= 0
+              ? fromUrl
+              : localStorage.getItem("modelverse-theme");
+
+          if (themeIds.indexOf(theme) < 0) {
+            var pool =
+              window.matchMedia &&
+              matchMedia("(prefers-color-scheme: light)").matches
+                ? lightThemeIds
+                : darkThemeIds;
+            theme = pool[Math.floor(Math.random() * pool.length)];
+          }
+
+          localStorage.setItem("modelverse-theme", theme);
+          document.documentElement.dataset.theme = theme;
+        } catch (error) {
+          document.documentElement.dataset.theme = defaultTheme;
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+    <script>
+      import { initTheme } from "../scripts/theme.js";
+      import { initNavigation } from "../scripts/navigation.js";
+
+      initTheme();
+      initNavigation();
+    </script>
+  </body>
+</html>

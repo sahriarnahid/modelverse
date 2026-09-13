@@ -1,0 +1,17 @@
+{
+  "name": "modelverse",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "update-prices": "node scripts/update-prices.mjs",
+    "analyze": "node scripts/analyze-models.mjs"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^14.3.1",
+    "astro": "^7.3.2"
+  }
+}

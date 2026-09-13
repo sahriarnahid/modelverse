@@ -1,0 +1,22 @@
+---
+import SectionHead from "../SectionHead.astro";
+import AgentCard from "../AgentCard.astro";
+import { agents } from "../../lib/catalog.js";
+---
+
+<section id="agents">
+  <div class="wrap">
+    <SectionHead
+      kicker="The agents"
+      title="The eight agents worth knowing."
+      sub="The agent is the tool you type into; you pay for the model behind it. Here is what each one costs and runs."
+    />
+    <div class="grid grid-4">
+      {agents.map((agent) => <AgentCard agent={agent} />)}
+    </div>
+    <p class="hint" style="margin-top: 1.5rem">
+      Tip: most agents are free or open source. You pay for the model, not the
+      harness — except ClinePass at a flat $9.99.
+    </p>
+  </div>
+</section>

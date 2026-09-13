@@ -1,0 +1,30 @@
+---
+import SectionHead from "../SectionHead.astro";
+import { quickAnswers, pricesUpdated } from "../../lib/catalog.js";
+import { fmtPrice } from "../../lib/format.js";
+---
+
+<section id="answers">
+  <div class="wrap">
+    <SectionHead
+      kicker="Quick answers"
+      title="The picks, analyzed nightly."
+      sub={`AI reads every price and spec in the catalog and refreshes these picks on each run. Last analyzed ${pricesUpdated}.`}
+    />
+    <div class="grid grid-4">
+      {
+        quickAnswers.map((answer) => (
+          <article class="card answer-card">
+            <span class="quiz-label">{answer.label}</span>
+            <div class="answer-model">{answer.model.name}</div>
+            <div class="answer-price">
+              {fmtPrice(answer.model.input)} in ·{" "}
+              {fmtPrice(answer.model.output)} out
+            </div>
+            <p class="answer-note">{answer.note}</p>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>

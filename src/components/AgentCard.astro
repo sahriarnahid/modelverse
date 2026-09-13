@@ -1,0 +1,25 @@
+---
+const { agent } = Astro.props;
+const domain = agent.url.replace("https://", "").replace(/\/$/, "");
+---
+
+<article class="card model-card">
+  <div class="model-head">
+    <div>
+      <div class="model-name">{agent.name}</div>
+      <div class="model-provider">{agent.models}</div>
+    </div>
+    <span class="badge">{agent.type}</span>
+  </div>
+  <div class="model-use">
+    <span class="use-label">Price</span>
+    <p>{agent.price}</p>
+  </div>
+  <div class="model-use">
+    <span class="use-label">Best for</span>
+    <p>{agent.bestFor}</p>
+  </div>
+  <a class="agent-link" href={agent.url} target="_blank" rel="noreferrer">
+    {domain} ↗
+  </a>
+</article>

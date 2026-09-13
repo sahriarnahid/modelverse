@@ -1,0 +1,77 @@
+---
+import SectionHead from "../SectionHead.astro";
+import { digest, latestRelease, pricesUpdated } from "../../lib/catalog.js";
+import { fmtPrice, fmtCtx } from "../../lib/format.js";
+---
+
+<section id="digest">
+  <div class="wrap">
+    <SectionHead
+      kicker="Daily digest"
+      title="What changed since the last update."
+      sub={`Auto-generated on every nightly run. Last update ${pricesUpdated}.`}
+    />
+    <div class="grid grid-3">
+      <article class="card digest-card">
+        <span class="quiz-label">Price changes</span>
+        {
+          digest.priceChanges.length ? (
+            <ul class="digest-list">
+              {digest.priceChanges.map((change) => (
+                <li>
+                  <b>{change.name}</b> {change.field}:{" "}
+                  {change.field === "context"
+                    ? fmtCtx(change.from)
+                    : fmtPrice(change.from)}{" "}
+                  →{" "}
+                  {change.field === "context"
+                    ? fmtCtx(change.to)
+                    : fmtPrice(change.to)}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p class="digest-empty">No price changes.</p>
+          )
+        }
+      </article>
+      <article class="card digest-card">
+        <span class="quiz-label">New releases</span>
+        {
+          digest.newReleases.length ? (
+            <ul class="digest-list">
+              {digest.newReleases.map((release) => (
+                <li>
+                  <b>{release.name}</b> · {release.provider} ·{" "}
+                  {fmtPrice(release.input)} in / {fmtPrice(release.output)} out
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p class="digest-empty">
+              {latestRelease
+                ? `None in the last day. Latest: ${latestRelease.name} (${latestRelease.released}).`
+                : "No releases recorded yet."}
+            </p>
+          )
+        }
+      </article>
+      <article class="card digest-card">
+        <span class="quiz-label">Pick changes</span>
+        {
+          digest.pickChanges.length ? (
+            <ul class="digest-list">
+              {digest.pickChanges.map((change) => (
+                <li>
+                  <b>{change.category}</b>: {change.from} → {change.to}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p class="digest-empty">Picks unchanged.</p>
+          )
+        }
+      </article>
+    </div>
+  </div>
+</section>

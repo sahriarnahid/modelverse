@@ -1,0 +1,94 @@
+---
+import SectionHead from "../SectionHead.astro";
+---
+
+<section id="stacks">
+  <div class="wrap">
+    <SectionHead
+      kicker="Recommended for you"
+      title="Dial in your setup. Get your stack."
+      sub="Slide your budget, set your priorities, and the AI picks the best stack for you."
+    />
+    <div class="quiz-controls">
+      <div class="quiz-group">
+        <span class="quiz-label">What are you building?</span>
+        <div class="goal-grid">
+          <button class="goal-tile active" type="button" data-value="website">
+            A website
+          </button>
+          <button class="goal-tile" type="button" data-value="app">An app</button>
+          <button class="goal-tile" type="button" data-value="learn">
+            Learning to code
+          </button>
+          <button class="goal-tile" type="button" data-value="business">
+            A business
+          </button>
+        </div>
+      </div>
+
+      <div class="quiz-row">
+        <div class="quiz-group">
+          <span class="quiz-label">
+            Monthly budget <b id="budget-value">$0</b>
+          </span>
+          <input
+            class="slider"
+            id="budget-slider"
+            type="range"
+            min="0"
+            max="100"
+            step="5"
+            value="0"
+            aria-label="Monthly budget in dollars"
+          />
+          <div class="slider-scale">
+            <span>$0</span><span>$50</span><span>$100+</span>
+          </div>
+        </div>
+
+        <div class="quiz-group">
+          <span class="quiz-label">
+            Priority <b id="priority-value">Balanced</b>
+          </span>
+          <input
+            class="slider"
+            id="priority-slider"
+            type="range"
+            min="0"
+            max="100"
+            step="10"
+            value="50"
+            aria-label="Cost versus quality priority"
+          />
+          <div class="slider-scale">
+            <span>Cheapest</span><span>Balanced</span><span>Best quality</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz-group">
+        <span class="quiz-label">Your experience</span>
+        <div class="segmented">
+          <span class="segmented-thumb"></span>
+          <button class="active" type="button" data-value="new">First project</button>
+          <button type="button" data-value="some">Some coding</button>
+          <button type="button" data-value="confident">Confident</button>
+        </div>
+      </div>
+
+      <div class="quiz-actions">
+        <button class="btn btn-ghost btn-sm" id="share-link" type="button">
+          Copy share link
+        </button>
+      </div>
+    </div>
+
+    <div class="stack-panel" id="quiz-result"></div>
+    <p class="hint" id="quiz-note" style="margin-top: 1rem"></p>
+  </div>
+</section>
+
+<script>
+  import { initQuiz } from "../../scripts/quiz.js";
+  initQuiz();
+</script>

@@ -1,0 +1,65 @@
+---
+import Logo from "./Logo.astro";
+import { themes } from "../data/themes.js";
+import { pricesUpdated } from "../lib/catalog.js";
+
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top" style="color: var(--t-text)">
+          <Logo />
+          ModelVerse
+        </a>
+        <p>
+          The AI model market, finally makes sense. Prices from models.dev and
+          provider pages, updated {pricesUpdated}.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#models">Models</a></li>
+          <li><a href="#compare">Compare</a></li>
+          <li><a href="#agents">Agents</a></li>
+          <li><a href="#market">Market</a></li>
+          <li><a href="#stacks">Stack quiz</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Project</h4>
+        <ul>
+          <li><a href="#digest">Daily digest</a></li>
+          <li><a href="#sources">Sources</a></li>
+          <li><a href="#compare">Compare</a></li>
+          <li><a href="#themes">Themes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://models.dev" target="_blank" rel="noreferrer">models.dev</a></li>
+          <li><a href="https://openrouter.ai" target="_blank" rel="noreferrer">OpenRouter</a></li>
+          <li><a href="https://cline.bot" target="_blank" rel="noreferrer">ClinePass</a></li>
+          <li><a href="https://opencode.ai" target="_blank" rel="noreferrer">opencode</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-themes" aria-label="Themes">
+      {
+        themes.map((theme) => (
+          <button class="footer-theme-link" type="button" data-theme-link={theme.id}>
+            {theme.name}
+          </button>
+        ))
+      }
+    </div>
+    <div class="footer-bottom">
+      <span>© {year} ModelVerse. Not affiliated with any provider.</span>
+      <span>Press <kbd>T</kbd> to change the theme.</span>
+    </div>
+  </div>
+</footer>

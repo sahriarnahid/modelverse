@@ -1,0 +1,18 @@
+---
+const { word = "MODELVERSE" } = Astro.props;
+---
+
+<div class="pixel-field" aria-hidden="true">
+  <canvas class="pixel-canvas" data-word={word}></canvas>
+</div>
+<div class="pixel-wrap">
+  <div class="pixel-placeholder"></div>
+</div>
+
+<script>
+  import { initPixelField } from "../scripts/pixel-field.js";
+
+  const canvas = document.querySelector(".pixel-canvas");
+  const placeholder = document.querySelector(".pixel-placeholder");
+  if (canvas && placeholder) initPixelField(canvas, placeholder);
+</script>

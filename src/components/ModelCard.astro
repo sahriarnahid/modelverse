@@ -1,0 +1,35 @@
+---
+import { fmtPrice, fmtCtx } from "../lib/format.js";
+
+const { model } = Astro.props;
+const cacheRead =
+  typeof model.cacheRead === "number" ? fmtPrice(model.cacheRead) : "—";
+const maxOutput =
+  typeof model.maxOutput === "number" ? fmtCtx(model.maxOutput) : "—";
+---
+
+<article class="card model-card" data-tags={model.tags.join(" ")}>
+  <div class="model-head">
+    <div>
+      <div class="model-name">{model.name}</div>
+      <div class="model-provider">{model.provider} · {model.released}</div>
+    </div>
+    <span class="badge">{model.tag}</span>
+  </div>
+  <div class="model-use">
+    <span class="use-label">Use for</span>
+    <p>{model.useFor.join(" · ")}</p>
+  </div>
+  <div class="model-use">
+    <span class="use-label">Skip for</span>
+    <p>{model.skip}</p>
+  </div>
+  <div class="price-row">
+    <span class="price-in">in<b>{fmtPrice(model.input)}</b></span>
+    <span class="price-out">out<b>{fmtPrice(model.output)}</b></span>
+    <span class="price-cache">cached in<b>{cacheRead}</b></span>
+  </div>
+  <div class="model-meta">
+    {fmtCtx(model.context)} context · {maxOutput} max output
+  </div>
+</article>

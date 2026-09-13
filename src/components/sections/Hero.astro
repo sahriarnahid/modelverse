@@ -1,0 +1,45 @@
+---
+import PixelField from "../PixelField.astro";
+import { tickerModels, stats } from "../../lib/catalog.js";
+import { fmtPrice } from "../../lib/format.js";
+
+const { modelCount, agentCount } = stats;
+---
+
+<section class="hero">
+  <div class="wrap hero-center">
+    <span class="kicker">{modelCount} models · real prices · updated daily</span>
+    <h1 class="sr-only">
+      What each AI model costs, and what it's actually good at.
+    </h1>
+  </div>
+
+  <PixelField />
+
+  <div class="wrap hero-center">
+    <p class="lede">
+      Real prices per million tokens, context limits, and concrete use cases
+      for {modelCount} models and {agentCount} coding agents. No benchmark talk.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#models">Compare models</a>
+      <a class="btn btn-ghost" href="#stacks">Find my stack</a>
+    </div>
+  </div>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      {
+        [...tickerModels, ...tickerModels].map((model) => (
+          <div class="ticker-card">
+            <span class="name">{model.name}</span>
+            <span class="price">
+              in <b class="price-in">{fmtPrice(model.input)}</b> · out{" "}
+              <b class="price-out">{fmtPrice(model.output)}</b>
+            </span>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
