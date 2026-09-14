@@ -1,36 +1,36 @@
 {
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Offers terminal agents and whole-repo refactors at $2 per 1M input tokens."
+      "reason": "Offers top-tier coding capabilities at $2 per 1M input and $10 per 1M output with a 1M token context."
     },
     {
       "category": "Cheapest",
       "model": "GLM-5.3-Flash",
-      "reason": "Has the lowest combined price of $0.075 input and $0.25 output per 1M tokens."
+      "reason": "Provides the lowest combined price of $0.075 per 1M input and $0.25 per 1M output."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Provides daily coding agent reasoning on a budget for only $0.87 per 1M output tokens."
+      "reason": "Delivers advanced reasoning and daily coding agent performance for only $0.435 input and $0.87 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Delivers complex reasoning and research-heavy work with a 1.05M token context."
+      "reason": "Excels at complex reasoning and research-heavy tasks with a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
       "model": "GPT-5.6 Terra",
-      "reason": "Supports 1.05M context tokens for general coding and mixed text at $2 per 1M input."
+      "reason": "Combines a massive 1,050,000 token context window with solid general coding performance."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Features a dedicated free-tier learning use case along with a 1.04M token context."
+      "reason": "Features built-in free-tier learning along with large file processing and a 1,048,576 token context."
     }
   ]
 }
