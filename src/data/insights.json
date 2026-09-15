@@ -1,36 +1,36 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Offers top-tier coding capabilities at $2 per 1M input and $10 per 1M output with a 1M token context."
+      "reason": "Tailored for whole-repo refactors and terminal agents with a 1,000,000 token context at $2 per 1M input."
     },
     {
       "category": "Cheapest",
       "model": "GLM-5.3-Flash",
-      "reason": "Provides the lowest combined price of $0.075 per 1M input and $0.25 per 1M output."
+      "reason": "Offers the lowest combined cost at just $0.325 per 1M tokens ($0.075 input and $0.25 output)."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers advanced reasoning and daily coding agent performance for only $0.435 input and $0.87 output per 1M tokens."
+      "reason": "Delivers capable reasoning and daily coding agent performance at an affordable $0.435 input and $0.87 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning and research-heavy tasks with a 1,050,000 token context window."
+      "reason": "Designed specifically for complex reasoning and research-heavy tasks across a massive 1,050,000 token window."
     },
     {
       "category": "Best for long context",
       "model": "GPT-5.6 Terra",
-      "reason": "Combines a massive 1,050,000 token context window with solid general coding performance."
+      "reason": "Provides the catalog's largest context window at 1,050,000 tokens for mixed text and general coding."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Features built-in free-tier learning along with large file processing and a 1,048,576 token context."
+      "reason": "Explicitly recommended for free-tier learning while offering a large 1,048,576 token context."
     }
   ]
 }
