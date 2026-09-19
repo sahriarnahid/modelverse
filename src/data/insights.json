@@ -1,36 +1,36 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Offers excellent coding capabilities with a 1M context window for $2 input and $10 output per 1M tokens."
+      "reason": "Offers exceptional capability for whole-repo refactors at $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
-      "model": "GLM-5.3-Flash",
-      "reason": "Provides the lowest combined pricing in the catalog at $0.075 input and $0.25 output per 1M tokens."
+      "model": "DeepSeek V4 Flash",
+      "reason": "Features the lowest combined pricing in the catalog at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers advanced reasoning and a 1M context window at a low cost of $0.435 input and $0.87 output per 1M tokens."
+      "reason": "Provides budget-friendly reasoning for long files at just $0.435 input and $0.87 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning and research-heavy tasks with a 1.05M context window."
+      "reason": "Delivers top-tier complex reasoning across a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-5.6 Terra",
-      "reason": "Supports a large 1,050,000 token context window ideal for mixed text and code."
+      "model": "Gemini 3.8 Flash",
+      "reason": "Handles large file processing effortlessly with a massive 1,048,576 token context."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly highlights free-tier learning in its use cases alongside a 1,048,576 token context."
+      "reason": "Includes designated free-tier learning capabilities alongside large file processing."
     }
   ]
 }

@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "releases": [
+    {
+      "name": "GLM-5.3-FlashX",
+      "provider": "Z.ai",
+      "source": "zai/glm-5.3-flashx",
+      "input": 0.37,
+      "output": 1.25,
+      "context": 1000000,
+      "released": "2026-09-18",
+      "tracked": false
+    },
     {
       "name": "DeepSeek V4 Flash Vision Exp",
       "provider": "DeepSeek",
@@ -85,8 +95,8 @@
       "name": "GLM-5.3-Flash",
       "provider": "Z.ai",
       "source": "zai/glm-5.3-flash",
-      "input": 0.075,
-      "output": 0.25,
+      "input": 0.15,
+      "output": 0.5,
       "context": 1000000,
       "released": "2026-08-26",
       "tracked": true
@@ -230,16 +240,6 @@
       "context": 1048576,
       "released": "2026-07-21",
       "tracked": false
-    },
-    {
-      "name": "Kimi K3",
-      "provider": "Moonshot",
-      "source": "moonshotai/kimi-k3",
-      "input": 3,
-      "output": 15,
-      "context": 1048576,
-      "released": "2026-07-16",
-      "tracked": true
     }
   ]
 }

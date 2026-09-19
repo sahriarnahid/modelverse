@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "models": {
     "anthropic/claude-sonnet-5": {
       "input": 2,
@@ -82,11 +82,11 @@
       "maxOutput": 131072
     },
     "zai/glm-5.3-flash": {
-      "input": 0.075,
-      "output": 0.25,
+      "input": 0.15,
+      "output": 0.5,
       "context": 1000000,
       "released": "2026-08-26",
-      "cacheRead": 0.015,
+      "cacheRead": 0.03,
       "maxOutput": 131072
     },
     "moonshotai/kimi-k3": {
