@@ -1,36 +1,36 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Specialized for whole-repo refactors and terminal agents with a 1M token context window at $2 input and $10 output per million."
+      "reason": "Offers an extensive 1,000,000 token context tailored for whole-repo refactors and terminal agents at $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
       "model": "GLM-5.3-Flash",
-      "reason": "Offers the lowest combined rate of $0.65 per million tokens ($0.15 input and $0.50 output)."
+      "reason": "Features the lowest combined price in the catalog at just $0.65 per million tokens ($0.15 input + $0.50 output)."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers capable reasoning and daily agent coding across a 1M token context for only $0.435 input and $0.87 output per million."
+      "reason": "Delivers full 1,000,000 token context reasoning and daily coding agent capabilities at an ultra-low $0.435 input and $0.87 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Top-tier model designated for complex reasoning and research-heavy tasks, supporting a 1,050,000 token context window."
+      "reason": "Provides top-tier complex reasoning and research performance across a massive 1,050,000 token context at $10 input and $50 output per 1M tokens."
     },
     {
       "category": "Best for long context",
       "model": "GPT-5.6 Terra",
-      "reason": "Features the catalog's largest context window of 1,050,000 tokens for general mixed text and code tasks."
+      "reason": "Boasts the catalog's largest context window of 1,050,000 tokens while handling general coding at $2 input and $12 output per 1M tokens."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly recommended for free-tier learning and fast iteration across a 1,048,576 token context."
+      "reason": "Explicitly targeted for free-tier learning and fast iteration while offering a 1,048,576 token context."
     }
   ]
 }

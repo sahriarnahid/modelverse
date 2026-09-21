@@ -1,17 +1,6 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "priceChanges": [],
   "newReleases": [],
-  "pickChanges": [
-    {
-      "category": "Cheapest",
-      "from": "DeepSeek V4 Flash",
-      "to": "GLM-5.3-Flash"
-    },
-    {
-      "category": "Best for long context",
-      "from": "Gemini 3.8 Flash",
-      "to": "GPT-5.6 Terra"
-    }
-  ]
+  "pickChanges": []
 }
