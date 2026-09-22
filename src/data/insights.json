@@ -1,36 +1,36 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Offers an extensive 1,000,000 token context tailored for whole-repo refactors and terminal agents at $2 input and $10 output per 1M tokens."
+      "reason": "Offers exceptional capability for whole-repo refactors at $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
-      "model": "GLM-5.3-Flash",
-      "reason": "Features the lowest combined price in the catalog at just $0.65 per million tokens ($0.15 input + $0.50 output)."
+      "model": "DeepSeek V4 Flash",
+      "reason": "Features the lowest combined pricing in the catalog at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers full 1,000,000 token context reasoning and daily coding agent capabilities at an ultra-low $0.435 input and $0.87 output per 1M tokens."
+      "reason": "Delivers daily coding agent capabilities and reasoning on a budget for only $0.435 input and $0.87 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Provides top-tier complex reasoning and research performance across a massive 1,050,000 token context at $10 input and $50 output per 1M tokens."
+      "reason": "Excels at complex reasoning and research-heavy work with a 1.05M context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-5.6 Terra",
-      "reason": "Boasts the catalog's largest context window of 1,050,000 tokens while handling general coding at $2 input and $12 output per 1M tokens."
+      "model": "GPT-5.6 Luna",
+      "reason": "Combines a massive 1,050,000 token context window with ultra-low pricing of $0.20 input and $1.20 output per 1M tokens."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly targeted for free-tier learning and fast iteration while offering a 1,048,576 token context."
+      "reason": "Specifically designated for free-tier learning while offering a large 1,048,576 token context window."
     }
   ]
 }
