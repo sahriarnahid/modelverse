@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "source": "ai",
   "picks": [
     {
@@ -10,27 +10,27 @@
     {
       "category": "Cheapest",
       "model": "DeepSeek V4 Flash",
-      "reason": "Features the lowest combined pricing in the catalog at $0.15 input and $0.60 output per 1M tokens."
+      "reason": "Provides the lowest combined cost at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers daily coding agent capabilities and reasoning on a budget for only $0.435 input and $0.87 output per 1M tokens."
+      "reason": "Delivers strong reasoning and daily coding agent performance for only $0.435 input and $0.87 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning and research-heavy work with a 1.05M context window."
+      "reason": "Excels at complex reasoning and research-heavy tasks with a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-5.6 Luna",
-      "reason": "Combines a massive 1,050,000 token context window with ultra-low pricing of $0.20 input and $1.20 output per 1M tokens."
+      "model": "Claude Opus 5",
+      "reason": "Combines hard debugging capabilities with a massive 1,000,000 token context window."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Specifically designated for free-tier learning while offering a large 1,048,576 token context window."
+      "reason": "Features a 1,048,576 token context and explicitly highlights free-tier learning in its use cases."
     }
   ]
 }

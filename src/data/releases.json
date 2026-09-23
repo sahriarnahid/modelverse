@@ -1,6 +1,36 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "releases": [
+    {
+      "name": "Claude Opus 5.5",
+      "provider": "Anthropic",
+      "source": "anthropic/claude-opus-5-5",
+      "input": 4,
+      "output": 20,
+      "context": 1000000,
+      "released": "2026-09-22",
+      "tracked": false
+    },
+    {
+      "name": "GPT-6 Sol",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6-sol",
+      "input": 2,
+      "output": 10,
+      "context": 1050000,
+      "released": "2026-09-22",
+      "tracked": false
+    },
+    {
+      "name": "GPT-6 Luna",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6-luna",
+      "input": 0.1,
+      "output": 0.5,
+      "context": 1050000,
+      "released": "2026-09-22",
+      "tracked": false
+    },
     {
       "name": "Grok 4.7",
       "provider": "xAI",
@@ -209,36 +239,6 @@
       "output": 0.4,
       "context": 1000000,
       "released": "2026-07-31",
-      "tracked": false
-    },
-    {
-      "name": "Claude Opus 5",
-      "provider": "Anthropic",
-      "source": "anthropic/claude-opus-5",
-      "input": 5,
-      "output": 25,
-      "context": 1000000,
-      "released": "2026-07-24",
-      "tracked": true
-    },
-    {
-      "name": "Gemini 3.6 Flash",
-      "provider": "Google",
-      "source": "google/gemini-3.6-flash",
-      "input": 0.75,
-      "output": 3.75,
-      "context": 1048576,
-      "released": "2026-07-21",
-      "tracked": false
-    },
-    {
-      "name": "Gemini 3.5 Flash Lite",
-      "provider": "Google",
-      "source": "google/gemini-3.5-flash-lite",
-      "input": 0.3,
-      "output": 2.5,
-      "context": 1048576,
-      "released": "2026-07-21",
       "tracked": false
     }
   ]
