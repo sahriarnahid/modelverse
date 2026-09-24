@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "models": {
     "anthropic/claude-sonnet-5": {
       "input": 2,
@@ -63,7 +63,7 @@
       "context": 1000000,
       "released": "2026-08-12",
       "cacheRead": 0.003625,
-      "maxOutput": 384000
+      "maxOutput": 393216
     },
     "deepseek/deepseek-v4-flash": {
       "input": 0.15,
@@ -71,7 +71,7 @@
       "context": 1000000,
       "released": "2026-09-10",
       "cacheRead": 0.003,
-      "maxOutput": 384000
+      "maxOutput": 393216
     },
     "zai/glm-5.3": {
       "input": 1.4,
@@ -95,7 +95,7 @@
       "context": 1048576,
       "released": "2026-07-16",
       "cacheRead": 0.3,
-      "maxOutput": 131072
+      "maxOutput": 1048576
     },
     "moonshotai/kimi-k2.7-code": {
       "input": 0.95,

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "source": "ai",
   "picks": [
     {
@@ -10,7 +10,7 @@
     {
       "category": "Cheapest",
       "model": "DeepSeek V4 Flash",
-      "reason": "Provides the lowest combined cost at $0.15 input and $0.60 output per 1M tokens."
+      "reason": "Provides the lowest combined cost with $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
@@ -20,17 +20,17 @@
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning and research-heavy tasks with a 1,050,000 token context window."
+      "reason": "Excels at complex reasoning and research tasks within a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "Claude Opus 5",
-      "reason": "Combines hard debugging capabilities with a massive 1,000,000 token context window."
+      "model": "Gemini 3.8 Flash",
+      "reason": "Handles large file processing efficiently across a massive 1,048,576 token context at low cost."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Features a 1,048,576 token context and explicitly highlights free-tier learning in its use cases."
+      "reason": "Explicitly designed for free-tier learning and fast iteration while maintaining over 1M context."
     }
   ]
 }
