@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "releases": [
     {
       "name": "Claude Opus 5.5",
@@ -12,21 +12,21 @@
       "tracked": false
     },
     {
-      "name": "GPT-6 Sol",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6-sol",
-      "input": 2,
-      "output": 10,
-      "context": 1050000,
-      "released": "2026-09-22",
-      "tracked": false
-    },
-    {
       "name": "GPT-6 Luna",
       "provider": "OpenAI",
       "source": "openai/gpt-6-luna",
       "input": 0.1,
       "output": 0.5,
+      "context": 1050000,
+      "released": "2026-09-22",
+      "tracked": false
+    },
+    {
+      "name": "GPT-6 Sol",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6-sol",
+      "input": 2,
+      "output": 10,
       "context": 1050000,
       "released": "2026-09-22",
       "tracked": false
@@ -62,16 +62,6 @@
       "tracked": false
     },
     {
-      "name": "DeepSeek V4 Flash",
-      "provider": "DeepSeek",
-      "source": "deepseek/deepseek-v4-flash",
-      "input": 0.15,
-      "output": 0.6,
-      "context": 1000000,
-      "released": "2026-09-10",
-      "tracked": true
-    },
-    {
       "name": "DeepSeek V4.1 Flash",
       "provider": "DeepSeek",
       "source": "deepseek/deepseek-flash",
@@ -80,6 +70,16 @@
       "context": 1000000,
       "released": "2026-09-10",
       "tracked": false
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-v4-flash",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1000000,
+      "released": "2026-09-10",
+      "tracked": true
     },
     {
       "name": "GPT-6 Astra",
@@ -162,9 +162,9 @@
       "tracked": true
     },
     {
-      "name": "Gemini 3.7 Flash",
+      "name": "Gemini Flash Latest",
       "provider": "Google",
-      "source": "google/gemini-3.7-flash",
+      "source": "google/gemini-flash-latest",
       "input": 0.75,
       "output": 3.75,
       "context": 1048576,
@@ -172,9 +172,9 @@
       "tracked": false
     },
     {
-      "name": "Gemini Flash Latest",
+      "name": "Gemini 3.7 Flash",
       "provider": "Google",
-      "source": "google/gemini-flash-latest",
+      "source": "google/gemini-3.7-flash",
       "input": 0.75,
       "output": 3.75,
       "context": 1048576,

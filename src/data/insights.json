@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "source": "ai",
   "picks": [
     {
@@ -10,27 +10,27 @@
     {
       "category": "Cheapest",
       "model": "DeepSeek V4 Flash",
-      "reason": "Provides the lowest combined cost with $0.15 input and $0.60 output per 1M tokens."
+      "reason": "Provides the lowest combined cost at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers strong reasoning and daily coding agent performance for only $0.435 input and $0.87 output per 1M tokens."
+      "reason": "Delivers strong reasoning for daily coding agents at just $0.435 input and $0.87 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning and research tasks within a 1,050,000 token context window."
+      "reason": "Excels at complex reasoning across a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
       "model": "Gemini 3.8 Flash",
-      "reason": "Handles large file processing efficiently across a massive 1,048,576 token context at low cost."
+      "reason": "Handles large file processing efficiently across a 1,048,576 token context."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly designed for free-tier learning and fast iteration while maintaining over 1M context."
+      "reason": "Features explicit support for free-tier learning alongside large file processing."
     }
   ]
 }
