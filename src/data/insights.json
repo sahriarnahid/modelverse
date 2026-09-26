@@ -1,36 +1,36 @@
 {
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Offers exceptional capability for whole-repo refactors at $2 input and $10 output per 1M tokens."
+      "reason": "Tailored for whole-repo refactors and terminal agents with a 1,000,000 token context at $2 per 1M input."
     },
     {
       "category": "Cheapest",
-      "model": "DeepSeek V4 Flash",
-      "reason": "Provides the lowest combined cost at $0.15 input and $0.60 output per 1M tokens."
+      "model": "GLM-5.3-Flash",
+      "reason": "Offers the lowest combined input and output rate at just $0.65 per 1M tokens total."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers strong reasoning for daily coding agents at just $0.435 input and $0.87 output per 1M tokens."
+      "reason": "Delivers strong daily coding and budget reasoning with a 1,000,000 token context at only $0.435 input and $0.87 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning across a 1,050,000 token context window."
+      "reason": "Top-tier model designed specifically for complex reasoning and research tasks, supported by a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "Gemini 3.8 Flash",
-      "reason": "Handles large file processing efficiently across a 1,048,576 token context."
+      "model": "GPT-5.6 Terra",
+      "reason": "Ties for the largest context window in the catalog at 1,050,000 tokens while handling general coding reliably."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Features explicit support for free-tier learning alongside large file processing."
+      "reason": "Explicitly targeted for free-tier learning and fast iteration across a massive 1,048,576 token context."
     }
   ]
 }
