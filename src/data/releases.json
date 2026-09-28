@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "releases": [
     {
       "name": "Claude Opus 5.5",
@@ -49,6 +49,16 @@
       "output": 1.25,
       "context": 1000000,
       "released": "2026-09-18",
+      "tracked": false
+    },
+    {
+      "name": "Qwen3.8 Omni Flash",
+      "provider": "Alibaba",
+      "source": "alibaba/qwen3.8-omni-flash",
+      "input": 0.15,
+      "output": 0.47,
+      "context": 1000000,
+      "released": "2026-09-17",
       "tracked": false
     },
     {
@@ -202,6 +212,26 @@
       "tracked": true
     },
     {
+      "name": "Daybreak Blue",
+      "provider": "OpenAI",
+      "source": "openai/gpt-daybreak-blue-latest",
+      "input": 4,
+      "output": 20,
+      "context": 1050000,
+      "released": "2026-08-07",
+      "tracked": false
+    },
+    {
+      "name": "Daybreak Red",
+      "provider": "OpenAI",
+      "source": "openai/gpt-daybreak-red-latest",
+      "input": 12.5,
+      "output": 75,
+      "context": 400000,
+      "released": "2026-08-07",
+      "tracked": false
+    },
+    {
       "name": "Muse Spark 1.2",
       "provider": "Meta",
       "source": "meta/muse-spark-1.2",
@@ -209,36 +239,6 @@
       "output": 4.25,
       "context": 1048576,
       "released": "2026-08-05",
-      "tracked": false
-    },
-    {
-      "name": "Muse Spark 1.2 Contributor",
-      "provider": "Meta",
-      "source": "meta/muse-spark-1.2-contributor",
-      "input": 0.1,
-      "output": 0.2,
-      "context": 1048576,
-      "released": "2026-08-05",
-      "tracked": false
-    },
-    {
-      "name": "Qwen3.8 Max",
-      "provider": "Alibaba",
-      "source": "alibaba/qwen3.8-max",
-      "input": 2,
-      "output": 6,
-      "context": 1000000,
-      "released": "2026-08-03",
-      "tracked": true
-    },
-    {
-      "name": "DeepSeek V4 Flash 0731",
-      "provider": "Alibaba",
-      "source": "alibaba/deepseek-v4-flash-0731",
-      "input": 0.2,
-      "output": 0.4,
-      "context": 1000000,
-      "released": "2026-07-31",
       "tracked": false
     }
   ]
