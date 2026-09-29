@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "releases": [
+    {
+      "name": "Claude Sonnet 5.5",
+      "provider": "Anthropic",
+      "source": "anthropic/claude-sonnet-5-5",
+      "input": 2,
+      "output": 10,
+      "context": 1000000,
+      "released": "2026-09-28",
+      "tracked": false
+    },
     {
       "name": "Claude Opus 5.5",
       "provider": "Anthropic",
@@ -229,16 +239,6 @@
       "output": 75,
       "context": 400000,
       "released": "2026-08-07",
-      "tracked": false
-    },
-    {
-      "name": "Muse Spark 1.2",
-      "provider": "Meta",
-      "source": "meta/muse-spark-1.2",
-      "input": 1.25,
-      "output": 4.25,
-      "context": 1048576,
-      "released": "2026-08-05",
       "tracked": false
     }
   ]

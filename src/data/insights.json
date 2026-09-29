@@ -1,36 +1,36 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Excels at whole-repo refactors with a 1M context for $2 input and $10 output per 1M tokens."
+      "reason": "Offers exceptional performance for whole-repo refactors at an input cost of $2 and output cost of $10 per 1M tokens."
     },
     {
       "category": "Cheapest",
       "model": "DeepSeek V4 Flash",
-      "reason": "Offers the lowest combined pricing in the catalog at $0.15 input and $0.60 output per 1M tokens."
+      "reason": "Features the lowest combined price with $0.15 per 1M input and $0.60 per 1M output tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Provides budget-friendly reasoning and a 1M context window for just $0.435 input and $0.87 output per 1M tokens."
+      "reason": "Provides daily coding agent reasoning on a budget with a low output cost of $0.87 per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Delivers top-tier complex reasoning across a 1,050,000 token context for $10 input and $50 output per 1M tokens."
+      "reason": "Delivers top-tier complex reasoning across a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "Claude Opus 5",
-      "reason": "Handles long agent runs and architecture tasks reliably within a massive 1,000,000 token context."
+      "model": "Gemini 3.8 Flash",
+      "reason": "Handles large file processing smoothly with a massive 1,048,576 token context."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Features a built-in free-tier learning use case alongside large file processing and a 1,048,576 token context."
+      "reason": "Includes free-tier learning capabilities alongside fast iteration and a 1M+ token context."
     }
   ]
 }

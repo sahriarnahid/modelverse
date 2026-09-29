@@ -1,12 +1,23 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "priceChanges": [],
-  "newReleases": [],
+  "newReleases": [
+    {
+      "name": "Claude Sonnet 5.5",
+      "provider": "Anthropic",
+      "source": "anthropic/claude-sonnet-5-5",
+      "input": 2,
+      "output": 10,
+      "context": 1000000,
+      "released": "2026-09-28",
+      "tracked": false
+    }
+  ],
   "pickChanges": [
     {
       "category": "Best for long context",
-      "from": "GPT-5.6 Terra",
-      "to": "Claude Opus 5"
+      "from": "Claude Opus 5",
+      "to": "Gemini 3.8 Flash"
     }
   ]
 }
