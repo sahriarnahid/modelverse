@@ -1,23 +1,17 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "priceChanges": [],
   "newReleases": [
     {
-      "name": "Claude Sonnet 5.5",
-      "provider": "Anthropic",
-      "source": "anthropic/claude-sonnet-5-5",
+      "name": "GPT-6.1 Sol",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6.1-sol",
       "input": 2,
       "output": 10,
-      "context": 1000000,
-      "released": "2026-09-28",
+      "context": 1050000,
+      "released": "2026-09-29",
       "tracked": false
     }
   ],
-  "pickChanges": [
-    {
-      "category": "Best for long context",
-      "from": "Claude Opus 5",
-      "to": "Gemini 3.8 Flash"
-    }
-  ]
+  "pickChanges": []
 }

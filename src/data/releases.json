@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "releases": [
+    {
+      "name": "GPT-6.1 Sol",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6.1-sol",
+      "input": 2,
+      "output": 10,
+      "context": 1050000,
+      "released": "2026-09-29",
+      "tracked": false
+    },
     {
       "name": "Claude Sonnet 5.5",
       "provider": "Anthropic",
@@ -228,16 +238,6 @@
       "input": 4,
       "output": 20,
       "context": 1050000,
-      "released": "2026-08-07",
-      "tracked": false
-    },
-    {
-      "name": "Daybreak Red",
-      "provider": "OpenAI",
-      "source": "openai/gpt-daybreak-red-latest",
-      "input": 12.5,
-      "output": 75,
-      "context": 400000,
       "released": "2026-08-07",
       "tracked": false
     }
