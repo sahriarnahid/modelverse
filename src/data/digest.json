@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "priceChanges": [],
-  "newReleases": [
+  "newReleases": [],
+  "pickChanges": [
     {
-      "name": "GPT-6.1 Sol",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6.1-sol",
-      "input": 2,
-      "output": 10,
-      "context": 1050000,
-      "released": "2026-09-29",
-      "tracked": false
+      "category": "Best for long context",
+      "from": "Gemini 3.8 Flash",
+      "to": "Claude Opus 5"
     }
-  ],
-  "pickChanges": []
+  ]
 }
