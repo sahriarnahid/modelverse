@@ -1,12 +1,6 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "priceChanges": [],
   "newReleases": [],
-  "pickChanges": [
-    {
-      "category": "Best for long context",
-      "from": "Gemini 3.8 Flash",
-      "to": "Claude Opus 5"
-    }
-  ]
+  "pickChanges": []
 }
