@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "releases": [
     {
       "name": "GPT-6.1 Sol",
@@ -215,8 +215,8 @@
       "name": "DeepSeek V4 Pro",
       "provider": "DeepSeek",
       "source": "deepseek/deepseek-v4-pro",
-      "input": 0.435,
-      "output": 0.87,
+      "input": 0.66,
+      "output": 1.98,
       "context": 1000000,
       "released": "2026-08-12",
       "tracked": true

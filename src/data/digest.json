@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-02",
-  "priceChanges": [],
+  "updated": "2026-10-03",
+  "priceChanges": [
+    {
+      "name": "DeepSeek V4 Pro",
+      "field": "input",
+      "from": 0.435,
+      "to": 0.66
+    },
+    {
+      "name": "DeepSeek V4 Pro",
+      "field": "output",
+      "from": 0.87,
+      "to": 1.98
+    }
+  ],
   "newReleases": [],
-  "pickChanges": []
+  "pickChanges": [
+    {
+      "category": "Cheapest",
+      "from": "DeepSeek V4 Flash",
+      "to": "GLM-5.3-Flash"
+    },
+    {
+      "category": "Best for long context",
+      "from": "Claude Opus 5",
+      "to": "GPT-5.6 Terra"
+    }
+  ]
 }

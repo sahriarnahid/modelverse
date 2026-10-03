@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "models": {
     "anthropic/claude-sonnet-5": {
       "input": 2,
@@ -58,11 +58,11 @@
       "maxOutput": 500000
     },
     "deepseek/deepseek-v4-pro": {
-      "input": 0.435,
-      "output": 0.87,
+      "input": 0.66,
+      "output": 1.98,
       "context": 1000000,
       "released": "2026-08-12",
-      "cacheRead": 0.003625,
+      "cacheRead": 0.022,
       "maxOutput": 393216
     },
     "deepseek/deepseek-v4-flash": {
