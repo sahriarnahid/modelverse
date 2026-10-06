@@ -1,17 +1,12 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "priceChanges": [],
   "newReleases": [],
   "pickChanges": [
     {
-      "category": "Cheapest",
-      "from": "GLM-5.3-Flash",
-      "to": "DeepSeek V4 Flash"
-    },
-    {
       "category": "Best for long context",
-      "from": "GPT-5.6 Terra",
-      "to": "Gemini 3.8 Flash"
+      "from": "Gemini 3.8 Flash",
+      "to": "Claude Opus 5"
     }
   ]
 }
