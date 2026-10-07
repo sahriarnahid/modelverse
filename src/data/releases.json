@@ -1,6 +1,16 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "releases": [
+    {
+      "name": "Mistral Large 4",
+      "provider": "Mistral",
+      "source": "mistral/mistral-large-4",
+      "input": 0.68,
+      "output": 2.09,
+      "context": 524288,
+      "released": "2026-10-06",
+      "tracked": false
+    },
     {
       "name": "GPT-6.1 Sol",
       "provider": "OpenAI",
@@ -230,16 +240,6 @@
       "context": 500000,
       "released": "2026-08-12",
       "tracked": true
-    },
-    {
-      "name": "Daybreak Blue",
-      "provider": "OpenAI",
-      "source": "openai/gpt-daybreak-blue-latest",
-      "input": 4,
-      "output": 20,
-      "context": 1050000,
-      "released": "2026-08-07",
-      "tracked": false
     }
   ]
 }

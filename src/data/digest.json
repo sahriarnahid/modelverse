@@ -1,12 +1,23 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "priceChanges": [],
-  "newReleases": [],
+  "newReleases": [
+    {
+      "name": "Mistral Large 4",
+      "provider": "Mistral",
+      "source": "mistral/mistral-large-4",
+      "input": 0.68,
+      "output": 2.09,
+      "context": 524288,
+      "released": "2026-10-06",
+      "tracked": false
+    }
+  ],
   "pickChanges": [
     {
       "category": "Best for long context",
-      "from": "Gemini 3.8 Flash",
-      "to": "Claude Opus 5"
+      "from": "Claude Opus 5",
+      "to": "GPT-5.6 Terra"
     }
   ]
 }
