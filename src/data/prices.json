@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "models": {
     "anthropic/claude-sonnet-5": {
       "input": 2,
