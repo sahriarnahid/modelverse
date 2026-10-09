@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "releases": [
     {
       "name": "Claude Haiku 5.5",
@@ -17,7 +17,7 @@
       "source": "mistral/mistral-large-4",
       "input": 0.68,
       "output": 2.09,
-      "context": 524288,
+      "context": 1048576,
       "released": "2026-10-06",
       "tracked": false
     },

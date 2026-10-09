@@ -1,17 +1,12 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "priceChanges": [],
-  "newReleases": [
+  "newReleases": [],
+  "pickChanges": [
     {
-      "name": "Claude Haiku 5.5",
-      "provider": "Anthropic",
-      "source": "anthropic/claude-haiku-5-5",
-      "input": 0.1,
-      "output": 0.5,
-      "context": 1000000,
-      "released": "2026-10-07",
-      "tracked": false
+      "category": "Best for long context",
+      "from": "GPT-5.6 Terra",
+      "to": "GPT-5.6 Luna"
     }
-  ],
-  "pickChanges": []
+  ]
 }

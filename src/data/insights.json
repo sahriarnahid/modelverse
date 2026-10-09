@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Excels at whole-repo refactors and terminal agents with a 1M context window for $2 input and $10 output per 1M tokens."
+      "reason": "It excels at whole-repo refactors and terminal agents for $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
       "model": "DeepSeek V4 Flash",
-      "reason": "Offers the lowest combined price of $0.15 input and $0.60 output per 1M tokens for high-volume edits."
+      "reason": "It offers the lowest combined price in the catalog at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Provides budget reasoning for $0.66 input and $1.98 output per 1M tokens with a full 1M context window."
+      "reason": "It provides high-end coding and reasoning capabilities for only $0.66 input and $1.98 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Delivers complex reasoning and research-heavy work with a 1,050,000 token context window."
+      "reason": "It is engineered for complex reasoning and research-heavy work with a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-5.6 Terra",
-      "reason": "Handles general coding with a massive 1,050,000 token context window and balanced pricing."
+      "model": "GPT-5.6 Luna",
+      "reason": "It supports a 1,050,000 token context window while costing a mere $0.20 input and $1.20 output per 1M tokens."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly designed for free-tier learning and large file processing with 1,048,576 tokens of context."
+      "reason": "It is specifically noted for free-tier learning while handling a 1,048,576 token context window."
     }
   ]
 }
