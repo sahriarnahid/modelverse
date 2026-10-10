@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "It excels at whole-repo refactors and terminal agents for $2 input and $10 output per 1M tokens."
+      "reason": "Offers top-tier whole-repo refactors and test creation within a massive 1,000,000 token context window at $2 input and $10 output per 1M."
     },
     {
       "category": "Cheapest",
-      "model": "DeepSeek V4 Flash",
-      "reason": "It offers the lowest combined price in the catalog at $0.15 input and $0.60 output per 1M tokens."
+      "model": "GLM-5.3-Flash",
+      "reason": "Has the lowest combined price in the catalog at just $0.65 per million tokens ($0.15 input + $0.50 output)."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "It provides high-end coding and reasoning capabilities for only $0.66 input and $1.98 output per 1M tokens."
+      "reason": "Delivers frontier-level daily coding and reasoning within a 1,000,000 token context for only $0.66 input and $1.98 output per 1M."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "It is engineered for complex reasoning and research-heavy work with a 1,050,000 token context window."
+      "reason": "Engineered specifically for top-tier complex reasoning and research-heavy tasks, supported by an expansive 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-5.6 Luna",
-      "reason": "It supports a 1,050,000 token context window while costing a mere $0.20 input and $1.20 output per 1M tokens."
+      "model": "GPT-5.6 Terra",
+      "reason": "Features the largest context window in the catalog at 1,050,000 tokens while handling general coding and mixed text tasks."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "It is specifically noted for free-tier learning while handling a 1,048,576 token context window."
+      "reason": "Explicitly targeted for free-tier learning and fast iteration, backed by a 1,048,576 token context window at low standard pricing ($0.75/$3.75)."
     }
   ]
 }
