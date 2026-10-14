@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "releases": [
+    {
+      "name": "Gemini 4 Argon",
+      "provider": "Google",
+      "source": "google/gemini-4-argon",
+      "input": 2,
+      "output": 10,
+      "context": 1048576,
+      "released": "2026-10-13",
+      "tracked": false
+    },
+    {
+      "name": "Muse Wonder",
+      "provider": "Meta",
+      "source": "meta/muse-wonder-1.0",
+      "input": 4,
+      "output": 20,
+      "context": 1048576,
+      "released": "2026-10-12",
+      "tracked": false
+    },
     {
       "name": "Claude Haiku 5.5",
       "provider": "Anthropic",
@@ -220,26 +240,6 @@
       "context": 1048576,
       "released": "2026-08-13",
       "tracked": false
-    },
-    {
-      "name": "Gemini 3.7 Flash",
-      "provider": "Google",
-      "source": "google/gemini-3.7-flash",
-      "input": 0.75,
-      "output": 3.75,
-      "context": 1048576,
-      "released": "2026-08-13",
-      "tracked": false
-    },
-    {
-      "name": "DeepSeek V4 Pro",
-      "provider": "DeepSeek",
-      "source": "deepseek/deepseek-v4-pro",
-      "input": 0.66,
-      "output": 1.98,
-      "context": 1000000,
-      "released": "2026-08-12",
-      "tracked": true
     }
   ]
 }
