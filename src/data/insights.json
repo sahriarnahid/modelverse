@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "It excels at whole-repo refactors and terminal agents for $2 per 1M input tokens."
+      "reason": "Offers top-tier whole-repo refactoring and terminal agent capabilities across a 1,000,000 token context window at $2 per 1M input."
     },
     {
       "category": "Cheapest",
-      "model": "DeepSeek V4 Flash",
-      "reason": "It offers the lowest combined pricing at $0.15 per 1M input and $0.60 per 1M output tokens."
+      "model": "GLM-5.3-Flash",
+      "reason": "Features the lowest combined price in the catalog at just $0.65 per 1M tokens ($0.15 input and $0.50 output)."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "It delivers daily coding agent performance and reasoning on a budget for just $1.98 per 1M output tokens."
+      "reason": "Delivers advanced reasoning and daily coding agent performance for only $0.66 input and $1.98 output per 1M tokens with a 1,000,000 context window."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "It handles complex reasoning and research-heavy work with a 1,050,000 token context window."
+      "reason": "Purpose-built for frontier research and complex reasoning tasks with an expansive 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-5.6 Luna",
-      "reason": "It supports a large 1,050,000 token context window for autocomplete and draft code."
+      "model": "GPT-5.6 Terra",
+      "reason": "Provides the catalog's largest context window at 1,050,000 tokens while maintaining balanced pricing at $2 input per 1M tokens."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "It explicitly includes free-tier learning alongside large file processing for $3.75 per 1M output tokens."
+      "reason": "Explicitly recommended for free-tier learning while offering a large 1,048,576 token context window."
     }
   ]
 }
