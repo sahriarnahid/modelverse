@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Offers an extensive 1,000,000-token context designed specifically for whole-repo refactors and terminal agents at $2 input and $10 output per 1M."
+      "reason": "Specialized for whole-repo refactors and test generation with a 1,000,000 token context window at $2 input and $10 output per million."
     },
     {
       "category": "Cheapest",
       "model": "GLM-5.3-Flash",
-      "reason": "Has the lowest combined cost in the catalog at just $0.65 per 1M tokens ($0.15 input plus $0.50 output)."
+      "reason": "Offers the lowest combined pricing in the catalog at just $0.15 input and $0.50 output per million tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers full 1,000,000-token frontier reasoning and coding capabilities at an ultra-low price of $0.66 input and $1.98 output per 1M tokens."
+      "reason": "Provides frontier-level reasoning and a 1,000,000 token context for daily coding workflows at an affordable $0.66 input and $1.98 output per million."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Engineered as the top-tier model for complex reasoning and research-heavy tasks with a massive 1,050,000-token context window."
+      "reason": "Top-tier model built explicitly for complex reasoning and research tasks, featuring a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
       "model": "GPT-5.6 Terra",
-      "reason": "Features the catalog's largest context window of 1,050,000 tokens while maintaining a balanced $2 input and $12 output price for full-repo work."
+      "reason": "Features the catalog's largest context window of 1,050,000 tokens suited for general coding and mixed text tasks at $2 input per million."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly recommended for free-tier learning while providing a massive 1,048,576-token context window."
+      "reason": "Explicitly recommended for free-tier learning while offering a massive 1,048,576 token context window."
     }
   ]
 }

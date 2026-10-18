@@ -1,12 +1,37 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "priceChanges": [],
-  "newReleases": [],
-  "pickChanges": [
+  "newReleases": [
     {
-      "category": "Cheapest",
-      "from": "DeepSeek V4 Flash",
-      "to": "GLM-5.3-Flash"
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-v4-flash-vision-exp",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1000000,
+      "released": "2026-10-17",
+      "tracked": false
+    },
+    {
+      "name": "DeepSeek V4.1 Flash 1017",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-flash",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1000000,
+      "released": "2026-10-17",
+      "tracked": false
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-v4-flash",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1000000,
+      "released": "2026-10-17",
+      "tracked": true
     }
-  ]
+  ],
+  "pickChanges": []
 }
