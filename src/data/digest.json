@@ -1,6 +1,19 @@
 {
-  "updated": "2026-10-19",
-  "priceChanges": [],
+  "updated": "2026-10-20",
+  "priceChanges": [
+    {
+      "name": "DeepSeek V4 Pro",
+      "field": "context",
+      "from": 1000000,
+      "to": 1048576
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "field": "context",
+      "from": 1000000,
+      "to": 1048576
+    }
+  ],
   "newReleases": [
     {
       "name": "MiniMax-M3.1-Flash",
