@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Provides top-tier code refactors and terminal agents within a 1,000,000 token context at $2 input and $10 output per million."
+      "reason": "Specialized for whole-repo refactors and terminal agents with a 1M token context window at $2 per 1M input."
     },
     {
       "category": "Cheapest",
       "model": "GLM-5.3-Flash",
-      "reason": "Has the lowest combined price in the catalog at $0.65 total ($0.15 input and $0.50 output per million tokens)."
+      "reason": "Offers the lowest combined rate at just $0.65 per million tokens ($0.15 input, $0.50 output)."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers frontier-level daily coding and reasoning within a 1,048,576 token window for only $0.66 input and $1.98 output per million."
+      "reason": "Delivers daily coding agent and reasoning capability across a 1,048,576 token context for only $0.66 input and $1.98 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Specializes in complex reasoning and heavy research with an expansive 1,050,000 token context at $10 input and $50 output per million."
+      "reason": "Purpose-built for complex reasoning and research tasks, backed by a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
       "model": "GPT-5.6 Terra",
-      "reason": "Offers the largest context window in the catalog at 1,050,000 tokens for mixed text and code tasks at $2 input and $12 output per million."
+      "reason": "Features the catalog's largest context window at 1,050,000 tokens for mixed text and code processing."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Specifically designated for free-tier learning and fast iteration across a massive 1,048,576 token context window."
+      "reason": "Explicitly recommended for free-tier learning while offering a massive 1,048,576 token context window."
     }
   ]
 }

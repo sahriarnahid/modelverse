@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "releases": [
     {
       "name": "MiniMax-M3.1-Flash",
@@ -9,6 +9,16 @@
       "output": 0.6,
       "context": 1000000,
       "released": "2026-10-19",
+      "tracked": false
+    },
+    {
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-v4-flash-vision-exp",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1048576,
+      "released": "2026-10-17",
       "tracked": false
     },
     {
@@ -30,16 +40,6 @@
       "context": 1048576,
       "released": "2026-10-17",
       "tracked": true
-    },
-    {
-      "name": "DeepSeek V4 Flash Vision Exp",
-      "provider": "DeepSeek",
-      "source": "deepseek/deepseek-v4-flash-vision-exp",
-      "input": 0.15,
-      "output": 0.6,
-      "context": 1048576,
-      "released": "2026-10-17",
-      "tracked": false
     },
     {
       "name": "Gemini 4 Argon",
@@ -112,21 +112,21 @@
       "tracked": false
     },
     {
-      "name": "GPT-6 Luna",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6-luna",
-      "input": 0.1,
-      "output": 0.5,
-      "context": 1050000,
-      "released": "2026-09-22",
-      "tracked": false
-    },
-    {
       "name": "GPT-6 Sol",
       "provider": "OpenAI",
       "source": "openai/gpt-6-sol",
       "input": 2,
       "output": 10,
+      "context": 1050000,
+      "released": "2026-09-22",
+      "tracked": false
+    },
+    {
+      "name": "GPT-6 Luna",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6-luna",
+      "input": 0.1,
+      "output": 0.5,
       "context": 1050000,
       "released": "2026-09-22",
       "tracked": false
