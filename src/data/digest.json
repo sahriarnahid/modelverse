@@ -1,53 +1,27 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "priceChanges": [],
-  "newReleases": [
-    {
-      "name": "Kimi K3.1 Pro Highspeed",
-      "provider": "Moonshot",
-      "source": "moonshotai/kimi-k3.1-pro-highspeed",
-      "input": 4,
-      "output": 20,
-      "context": 1048576,
-      "released": "2026-10-23",
-      "tracked": false
-    },
-    {
-      "name": "Kimi K3.1 Pro",
-      "provider": "Moonshot",
-      "source": "moonshotai/kimi-k3.1-pro",
-      "input": 2,
-      "output": 10,
-      "context": 1048576,
-      "released": "2026-10-23",
-      "tracked": false
-    }
-  ],
+  "newReleases": [],
   "pickChanges": [
     {
       "category": "Best for coding",
-      "from": "Claude Sonnet 5",
-      "to": "GPT-5.6 Terra"
-    },
-    {
-      "category": "Cheapest",
-      "from": "GLM-5.3-Flash",
-      "to": "DeepSeek V4 Flash"
-    },
-    {
-      "category": "Best value",
-      "from": "DeepSeek V4 Pro",
+      "from": "GPT-5.6 Terra",
       "to": "Claude Sonnet 5"
     },
     {
+      "category": "Best value",
+      "from": "Claude Sonnet 5",
+      "to": "DeepSeek V4 Pro"
+    },
+    {
       "category": "Best for reasoning",
-      "from": "GPT-6 Astra",
-      "to": "Claude Opus 5"
+      "from": "Claude Opus 5",
+      "to": "GPT-6 Astra"
     },
     {
       "category": "Best for long context",
-      "from": "GPT-5.6 Terra",
-      "to": "GPT-6 Astra"
+      "from": "GPT-6 Astra",
+      "to": "Claude Opus 5"
     }
   ]
 }
