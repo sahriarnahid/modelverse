@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Provides exceptional whole-repo refactors at $2 input and $10 output per 1M tokens."
+      "reason": "Offers top-tier coding capabilities with a 1M context window for $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
       "model": "DeepSeek V4 Flash",
-      "reason": "Offers the lowest combined pricing in the catalog at $0.15 input and $0.60 output per 1M tokens."
+      "reason": "Provides the lowest combined pricing in the catalog at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers daily coding agent capabilities and long-file support for just $0.66 input and $1.98 output per 1M tokens."
+      "reason": "Delivers strong reasoning performance at an affordable rate of $0.66 input and $1.98 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning and research-heavy tasks within a 1,050,000 token context window."
+      "reason": "Excels at complex reasoning and research tasks with a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "Claude Opus 5",
-      "reason": "Combines a massive 1,000,000 token context with top-tier performance for hard debugging."
+      "model": "Gemini 3.8 Flash",
+      "reason": "Supports a large file processing context of 1,048,576 tokens at a low cost of $0.75 input and $3.75 output per 1M tokens."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Features built-in free-tier learning support and large file processing at a low $0.75 input price."
+      "reason": "Features explicit support for free-tier learning alongside a 1,048,576 token context window."
     }
   ]
 }

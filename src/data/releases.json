@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "releases": [
-    {
-      "name": "Kimi K3.1 Pro",
-      "provider": "Moonshot",
-      "source": "moonshotai/kimi-k3.1-pro",
-      "input": 2,
-      "output": 10,
-      "context": 1048576,
-      "released": "2026-10-23",
-      "tracked": false
-    },
     {
       "name": "Kimi K3.1 Pro Highspeed",
       "provider": "Moonshot",
       "source": "moonshotai/kimi-k3.1-pro-highspeed",
       "input": 4,
       "output": 20,
+      "context": 1048576,
+      "released": "2026-10-23",
+      "tracked": false
+    },
+    {
+      "name": "Kimi K3.1 Pro",
+      "provider": "Moonshot",
+      "source": "moonshotai/kimi-k3.1-pro",
+      "input": 2,
+      "output": 10,
       "context": 1048576,
       "released": "2026-10-23",
       "tracked": false
