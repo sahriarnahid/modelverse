@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Specialized for whole-repo refactors and terminal agents with a 1M token context window at $2 input and $10 output per million."
+      "reason": "Offers top-tier coding capabilities for whole-repo refactors at $2 per 1M input and $10 per 1M output."
     },
     {
       "category": "Cheapest",
-      "model": "GLM-5.3-Flash",
-      "reason": "Has the lowest combined price at just $0.65 per million tokens ($0.15 input plus $0.50 output)."
+      "model": "DeepSeek V4 Flash",
+      "reason": "Provides the lowest combined pricing in the catalog at $0.15 per 1M input and $0.60 per 1M output."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers budget reasoning and daily coding agent capabilities with a 1,048,576-token context for only $0.66 input and $1.98 output per million."
+      "reason": "Delivers strong daily coding agent performance and long file support for just $0.66 per 1M input and $1.98 per 1M output."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Top frontier choice tailored for complex reasoning and research tasks, offering a 1,050,000-token context window at $50 per million output."
+      "reason": "Excels at complex reasoning and research-heavy tasks across a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
       "model": "GPT-5.6 Terra",
-      "reason": "Ties for the largest context window in the catalog at 1,050,000 tokens while handling mixed text and code."
+      "reason": "Combines a massive 1,050,000 token context with balanced general coding performance."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly targeted for free-tier learning and fast iteration across a 1,048,576-token context."
+      "reason": "Explicitly designed for free-tier learning and fast iteration alongside a 1,048,576 token context."
     }
   ]
 }

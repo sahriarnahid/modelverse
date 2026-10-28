@@ -1,28 +1,12 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "priceChanges": [],
-  "newReleases": [
-    {
-      "name": "GPT-6.1 Terra",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6.1-terra",
-      "input": 1,
-      "output": 5,
-      "context": 1050000,
-      "released": "2026-10-26",
-      "tracked": false
-    }
-  ],
+  "newReleases": [],
   "pickChanges": [
     {
       "category": "Cheapest",
-      "from": "DeepSeek V4 Flash",
-      "to": "GLM-5.3-Flash"
-    },
-    {
-      "category": "Best for long context",
-      "from": "Gemini 3.8 Flash",
-      "to": "GPT-5.6 Terra"
+      "from": "GLM-5.3-Flash",
+      "to": "DeepSeek V4 Flash"
     }
   ]
 }
