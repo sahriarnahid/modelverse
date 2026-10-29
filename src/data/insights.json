@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Offers top-tier coding capabilities for whole-repo refactors at $2 per 1M input and $10 per 1M output."
+      "reason": "Offers elite coding capabilities with 1M context for $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
       "model": "DeepSeek V4 Flash",
-      "reason": "Provides the lowest combined pricing in the catalog at $0.15 per 1M input and $0.60 per 1M output."
+      "reason": "Provides the lowest combined cost at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers strong daily coding agent performance and long file support for just $0.66 per 1M input and $1.98 per 1M output."
+      "reason": "Delivers strong reasoning and daily agent performance for only $0.66 input and $1.98 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning and research-heavy tasks across a 1,050,000 token context window."
+      "reason": "Excels at complex reasoning and research with a massive 1.05M context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-5.6 Terra",
-      "reason": "Combines a massive 1,050,000 token context with balanced general coding performance."
+      "model": "Gemini 3.8 Flash",
+      "reason": "Handles large file processing efficiently with a 1,048,576 token context at $0.75 input and $3.75 output per 1M."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly designed for free-tier learning and fast iteration alongside a 1,048,576 token context."
+      "reason": "Specifically designated for free-tier learning while offering a massive 1M+ context window."
     }
   ]
 }

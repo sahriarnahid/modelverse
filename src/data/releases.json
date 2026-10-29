@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "releases": [
     {
       "name": "GPT-6.1 Terra",
@@ -9,16 +9,6 @@
       "output": 5,
       "context": 1050000,
       "released": "2026-10-26",
-      "tracked": false
-    },
-    {
-      "name": "Kimi K3.1 Pro",
-      "provider": "Moonshot",
-      "source": "moonshotai/kimi-k3.1-pro",
-      "input": 2,
-      "output": 10,
-      "context": 1048576,
-      "released": "2026-10-23",
       "tracked": false
     },
     {
@@ -32,6 +22,16 @@
       "tracked": false
     },
     {
+      "name": "Kimi K3.1 Pro",
+      "provider": "Moonshot",
+      "source": "moonshotai/kimi-k3.1-pro",
+      "input": 2,
+      "output": 10,
+      "context": 1048576,
+      "released": "2026-10-23",
+      "tracked": false
+    },
+    {
       "name": "MiniMax-M3.1-Flash",
       "provider": "MiniMax",
       "source": "minimax/MiniMax-M3.1-Flash",
@@ -40,6 +40,16 @@
       "context": 1000000,
       "released": "2026-10-19",
       "tracked": false
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-v4-flash",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1048576,
+      "released": "2026-10-17",
+      "tracked": true
     },
     {
       "name": "DeepSeek V4.1 Flash 1017",
@@ -60,16 +70,6 @@
       "context": 1048576,
       "released": "2026-10-17",
       "tracked": false
-    },
-    {
-      "name": "DeepSeek V4 Flash",
-      "provider": "DeepSeek",
-      "source": "deepseek/deepseek-v4-flash",
-      "input": 0.15,
-      "output": 0.6,
-      "context": 1048576,
-      "released": "2026-10-17",
-      "tracked": true
     },
     {
       "name": "Gemini 4 Argon",
@@ -142,21 +142,21 @@
       "tracked": false
     },
     {
-      "name": "GPT-6 Sol",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6-sol",
-      "input": 2,
-      "output": 10,
-      "context": 1050000,
-      "released": "2026-09-22",
-      "tracked": false
-    },
-    {
       "name": "GPT-6 Luna",
       "provider": "OpenAI",
       "source": "openai/gpt-6-luna",
       "input": 0.1,
       "output": 0.5,
+      "context": 1050000,
+      "released": "2026-09-22",
+      "tracked": false
+    },
+    {
+      "name": "GPT-6 Sol",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6-sol",
+      "input": 2,
+      "output": 10,
       "context": 1050000,
       "released": "2026-09-22",
       "tracked": false
