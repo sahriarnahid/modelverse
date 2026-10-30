@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Offers elite coding capabilities with 1M context for $2 input and $10 output per 1M tokens."
+      "reason": "Offers top-tier whole-repo refactoring and terminal agent capabilities across a 1M token context for $2 input and $10 output per 1M."
     },
     {
       "category": "Cheapest",
-      "model": "DeepSeek V4 Flash",
-      "reason": "Provides the lowest combined cost at $0.15 input and $0.60 output per 1M tokens."
+      "model": "GLM-5.3-Flash",
+      "reason": "Has the lowest combined rate at just $0.65 per million tokens ($0.15 input plus $0.50 output)."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers strong reasoning and daily agent performance for only $0.66 input and $1.98 output per 1M tokens."
+      "reason": "Provides daily coding agent reasoning across a 1,048,576 token context for only $0.66 input and $1.98 output per 1M."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning and research with a massive 1.05M context window."
+      "reason": "Built specifically for complex reasoning and research tasks, backed by an expansive 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "Gemini 3.8 Flash",
-      "reason": "Handles large file processing efficiently with a 1,048,576 token context at $0.75 input and $3.75 output per 1M."
+      "model": "GPT-5.6 Terra",
+      "reason": "Features the catalog's largest context window at 1,050,000 tokens while handling mixed text and code reliably."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Specifically designated for free-tier learning while offering a massive 1M+ context window."
+      "reason": "Explicitly designated for free-tier learning and fast iteration across a massive 1,048,576 token context."
     }
   ]
 }
