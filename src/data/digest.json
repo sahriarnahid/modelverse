@@ -1,12 +1,6 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "priceChanges": [],
   "newReleases": [],
-  "pickChanges": [
-    {
-      "category": "Cheapest",
-      "from": "DeepSeek V4 Flash",
-      "to": "GLM-5.3-Flash"
-    }
-  ]
+  "pickChanges": []
 }
