@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "releases": [
     {
       "name": "GPT-6.1 Terra",
@@ -102,9 +102,9 @@
       "tracked": false
     },
     {
-      "name": "Mistral Large 4",
+      "name": "Mistral Large 4.0.8",
       "provider": "Mistral",
-      "source": "mistral/mistral-large-4",
+      "source": "mistral/mistral-large-4-0-8",
       "input": 0.7,
       "output": 2.1,
       "context": 1048576,
@@ -112,9 +112,9 @@
       "tracked": false
     },
     {
-      "name": "Mistral Large 4.0.8",
+      "name": "Mistral Large 4",
       "provider": "Mistral",
-      "source": "mistral/mistral-large-4-0-8",
+      "source": "mistral/mistral-large-4",
       "input": 0.7,
       "output": 2.1,
       "context": 1048576,
