@@ -1,17 +1,6 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "priceChanges": [],
   "newReleases": [],
-  "pickChanges": [
-    {
-      "category": "Best for reasoning",
-      "from": "Claude Opus 5",
-      "to": "GPT-6 Astra"
-    },
-    {
-      "category": "Best for long context",
-      "from": "GPT-6 Astra",
-      "to": "Gemini 3.8 Flash"
-    }
-  ]
+  "pickChanges": []
 }
