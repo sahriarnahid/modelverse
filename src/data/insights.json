@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Excels at whole-repo refactors and terminal agents with a 1M context window for $2 input and $10 output per 1M tokens."
+      "reason": "Offers top-tier coding capabilities with a 1M context for $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
       "model": "DeepSeek V4 Flash",
-      "reason": "Offers the lowest combined pricing at $0.15 input and $0.60 output per 1M tokens."
+      "reason": "Provides the lowest combined cost at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Provides daily coding agent capabilities and reasoning for just $0.66 input and $1.98 output per 1M tokens."
+      "reason": "Delivers strong reasoning and daily coding agent performance for only $0.66 input and $1.98 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Delivers top-tier complex reasoning and research-heavy work across a 1.05M context window."
+      "reason": "Excels at complex reasoning and research-heavy work with a 1.05M context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-5.6 Terra",
-      "reason": "Supports a 1,050,000 token context window ideal for general coding and mixed text tasks."
+      "model": "Gemini 3.8 Flash",
+      "reason": "Handles large file processing efficiently with a massive 1,048,576 token context and cheap $0.75 input pricing."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Features built-in free-tier learning alongside fast iteration and a large 1.04M context window."
+      "reason": "Explicitly designed for free-tier learning while maintaining high performance and a 1M context."
     }
   ]
 }
