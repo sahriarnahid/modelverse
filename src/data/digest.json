@@ -1,12 +1,27 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "priceChanges": [],
-  "newReleases": [],
-  "pickChanges": [
+  "newReleases": [
     {
-      "category": "Best for long context",
-      "from": "GPT-5.6 Terra",
-      "to": "Gemini 3.8 Flash"
+      "name": "Claude Fable 5.2",
+      "provider": "Anthropic",
+      "source": "anthropic/claude-fable-5-2",
+      "input": 8,
+      "output": 40,
+      "context": 1000000,
+      "released": "2026-11-09",
+      "tracked": false
+    },
+    {
+      "name": "Muse Ember",
+      "provider": "Meta",
+      "source": "meta/muse-ember-1.0",
+      "input": 0.1,
+      "output": 0.5,
+      "context": 1048576,
+      "released": "2026-11-09",
+      "tracked": false
     }
-  ]
+  ],
+  "pickChanges": []
 }
