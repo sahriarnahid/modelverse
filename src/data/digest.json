@@ -1,27 +1,28 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "priceChanges": [],
   "newReleases": [
     {
-      "name": "Claude Fable 5.2",
-      "provider": "Anthropic",
-      "source": "anthropic/claude-fable-5-2",
-      "input": 8,
-      "output": 40,
-      "context": 1000000,
-      "released": "2026-11-09",
-      "tracked": false
-    },
-    {
-      "name": "Muse Ember",
-      "provider": "Meta",
-      "source": "meta/muse-ember-1.0",
-      "input": 0.1,
-      "output": 0.5,
+      "name": "Gemini 4 Carbon",
+      "provider": "Google",
+      "source": "google/gemini-4-carbon",
+      "input": 2,
+      "output": 10,
       "context": 1048576,
-      "released": "2026-11-09",
+      "released": "2026-11-10",
       "tracked": false
     }
   ],
-  "pickChanges": []
+  "pickChanges": [
+    {
+      "category": "Cheapest",
+      "from": "DeepSeek V4 Flash",
+      "to": "GLM-5.3-Flash"
+    },
+    {
+      "category": "Best for long context",
+      "from": "Gemini 3.8 Flash",
+      "to": "GPT-6 Astra"
+    }
+  ]
 }

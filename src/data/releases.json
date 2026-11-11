@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "releases": [
+    {
+      "name": "Gemini 4 Carbon",
+      "provider": "Google",
+      "source": "google/gemini-4-carbon",
+      "input": 2,
+      "output": 10,
+      "context": 1048576,
+      "released": "2026-11-10",
+      "tracked": false
+    },
     {
       "name": "Claude Fable 5.2",
       "provider": "Anthropic",
@@ -72,16 +82,6 @@
       "tracked": false
     },
     {
-      "name": "DeepSeek V4 Flash Vision Exp",
-      "provider": "DeepSeek",
-      "source": "deepseek/deepseek-v4-flash-vision-exp",
-      "input": 0.15,
-      "output": 0.6,
-      "context": 1048576,
-      "released": "2026-10-17",
-      "tracked": false
-    },
-    {
       "name": "DeepSeek V4 Flash",
       "provider": "DeepSeek",
       "source": "deepseek/deepseek-v4-flash",
@@ -90,6 +90,16 @@
       "context": 1048576,
       "released": "2026-10-17",
       "tracked": true
+    },
+    {
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-v4-flash-vision-exp",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1048576,
+      "released": "2026-10-17",
+      "tracked": false
     },
     {
       "name": "Gemini 4 Argon",
@@ -122,9 +132,9 @@
       "tracked": false
     },
     {
-      "name": "Mistral Large 4",
+      "name": "Mistral Large 4.0.8",
       "provider": "Mistral",
-      "source": "mistral/mistral-large-4",
+      "source": "mistral/mistral-large-4-0-8",
       "input": 0.7,
       "output": 2.1,
       "context": 1048576,
@@ -132,9 +142,9 @@
       "tracked": false
     },
     {
-      "name": "Mistral Large 4.0.8",
+      "name": "Mistral Large 4",
       "provider": "Mistral",
-      "source": "mistral/mistral-large-4-0-8",
+      "source": "mistral/mistral-large-4",
       "input": 0.7,
       "output": 2.1,
       "context": 1048576,
@@ -229,16 +239,6 @@
       "output": 50,
       "context": 1050000,
       "released": "2026-09-04",
-      "tracked": true
-    },
-    {
-      "name": "Gemini 3.8 Flash",
-      "provider": "Google",
-      "source": "google/gemini-3.8-flash",
-      "input": 0.75,
-      "output": 3.75,
-      "context": 1048576,
-      "released": "2026-09-02",
       "tracked": true
     }
   ]
