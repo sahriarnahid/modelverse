@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "releases": [
     {
       "name": "Gemini 4 Carbon",
@@ -72,16 +72,6 @@
       "tracked": false
     },
     {
-      "name": "DeepSeek V4.1 Flash 1017",
-      "provider": "DeepSeek",
-      "source": "deepseek/deepseek-flash",
-      "input": 0.15,
-      "output": 0.6,
-      "context": 1048576,
-      "released": "2026-10-17",
-      "tracked": false
-    },
-    {
       "name": "DeepSeek V4 Flash",
       "provider": "DeepSeek",
       "source": "deepseek/deepseek-v4-flash",
@@ -95,6 +85,16 @@
       "name": "DeepSeek V4 Flash Vision Exp",
       "provider": "DeepSeek",
       "source": "deepseek/deepseek-v4-flash-vision-exp",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1048576,
+      "released": "2026-10-17",
+      "tracked": false
+    },
+    {
+      "name": "DeepSeek V4.1 Flash 1017",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-flash",
       "input": 0.15,
       "output": 0.6,
       "context": 1048576,

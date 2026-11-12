@@ -1,28 +1,17 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "priceChanges": [],
-  "newReleases": [
-    {
-      "name": "Gemini 4 Carbon",
-      "provider": "Google",
-      "source": "google/gemini-4-carbon",
-      "input": 2,
-      "output": 10,
-      "context": 1048576,
-      "released": "2026-11-10",
-      "tracked": false
-    }
-  ],
+  "newReleases": [],
   "pickChanges": [
     {
       "category": "Cheapest",
-      "from": "DeepSeek V4 Flash",
-      "to": "GLM-5.3-Flash"
+      "from": "GLM-5.3-Flash",
+      "to": "DeepSeek V4 Flash"
     },
     {
       "category": "Best for long context",
-      "from": "Gemini 3.8 Flash",
-      "to": "GPT-6 Astra"
+      "from": "GPT-6 Astra",
+      "to": "Gemini 3.8 Flash"
     }
   ]
 }

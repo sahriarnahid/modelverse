@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Tailored for whole-repo refactors and terminal agents at $2 input and $10 output per 1M tokens."
+      "reason": "Offers elite coding capabilities with 1M context for $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
-      "model": "GLM-5.3-Flash",
-      "reason": "Offers the lowest combined cost at just $0.65 per 1M tokens ($0.15 input, $0.50 output)."
+      "model": "DeepSeek V4 Flash",
+      "reason": "Provides the lowest combined cost at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers reasoning and daily coding agent performance at a budget rate of $0.66 input and $1.98 output per 1M tokens."
+      "reason": "Delivers strong reasoning and daily coding agent performance for only $0.66 input and $1.98 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Top frontier choice for complex reasoning and research tasks, priced at $10 input and $50 output per 1M tokens."
+      "reason": "Excels at complex reasoning across a 1,050,000 token context window."
     },
     {
       "category": "Best for long context",
-      "model": "GPT-6 Astra",
-      "reason": "Features the catalog's largest context window at 1,050,000 tokens for massive prompts."
+      "model": "Gemini 3.8 Flash",
+      "reason": "Handles massive workloads efficiently with a 1,048,576 token context at $0.75 input and $3.75 output per 1M tokens."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Explicitly designed for free-tier learning and fast iteration with a 1,048,576-token context window."
+      "reason": "Features built-in free-tier learning capabilities alongside a 1M+ context window."
     }
   ]
 }
