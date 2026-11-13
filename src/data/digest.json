@@ -1,17 +1,23 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "priceChanges": [],
-  "newReleases": [],
+  "newReleases": [
+    {
+      "name": "Gemini 4 Hydrogen",
+      "provider": "Google",
+      "source": "google/gemini-4-hydrogen",
+      "input": 1.5,
+      "output": 7.5,
+      "context": 1048576,
+      "released": "2026-11-12",
+      "tracked": false
+    }
+  ],
   "pickChanges": [
     {
-      "category": "Cheapest",
-      "from": "GLM-5.3-Flash",
-      "to": "DeepSeek V4 Flash"
-    },
-    {
       "category": "Best for long context",
-      "from": "GPT-6 Astra",
-      "to": "Gemini 3.8 Flash"
+      "from": "Gemini 3.8 Flash",
+      "to": "GPT-5.6 Terra"
     }
   ]
 }

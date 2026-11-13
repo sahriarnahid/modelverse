@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "releases": [
+    {
+      "name": "Gemini 4 Hydrogen",
+      "provider": "Google",
+      "source": "google/gemini-4-hydrogen",
+      "input": 1.5,
+      "output": 7.5,
+      "context": 1048576,
+      "released": "2026-11-12",
+      "tracked": false
+    },
     {
       "name": "Gemini 4 Carbon",
       "provider": "Google",
@@ -42,21 +52,21 @@
       "tracked": false
     },
     {
-      "name": "Kimi K3.1 Pro",
-      "provider": "Moonshot",
-      "source": "moonshotai/kimi-k3.1-pro",
-      "input": 2,
-      "output": 10,
-      "context": 1048576,
-      "released": "2026-10-23",
-      "tracked": false
-    },
-    {
       "name": "Kimi K3.1 Pro Highspeed",
       "provider": "Moonshot",
       "source": "moonshotai/kimi-k3.1-pro-highspeed",
       "input": 4,
       "output": 20,
+      "context": 1048576,
+      "released": "2026-10-23",
+      "tracked": false
+    },
+    {
+      "name": "Kimi K3.1 Pro",
+      "provider": "Moonshot",
+      "source": "moonshotai/kimi-k3.1-pro",
+      "input": 2,
+      "output": 10,
       "context": 1048576,
       "released": "2026-10-23",
       "tracked": false
@@ -152,6 +162,16 @@
       "tracked": false
     },
     {
+      "name": "Mistral Large (latest)",
+      "provider": "Mistral",
+      "source": "mistral/mistral-large-latest",
+      "input": 0.7,
+      "output": 2.1,
+      "context": 1048576,
+      "released": "2026-10-06",
+      "tracked": false
+    },
+    {
       "name": "GPT-6.1 Sol",
       "provider": "OpenAI",
       "source": "openai/gpt-6.1-sol",
@@ -182,21 +202,21 @@
       "tracked": false
     },
     {
-      "name": "GPT-6 Sol",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6-sol",
-      "input": 2,
-      "output": 10,
-      "context": 1050000,
-      "released": "2026-09-22",
-      "tracked": false
-    },
-    {
       "name": "GPT-6 Luna",
       "provider": "OpenAI",
       "source": "openai/gpt-6-luna",
       "input": 0.1,
       "output": 0.5,
+      "context": 1050000,
+      "released": "2026-09-22",
+      "tracked": false
+    },
+    {
+      "name": "GPT-6 Sol",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6-sol",
+      "input": 2,
+      "output": 10,
       "context": 1050000,
       "released": "2026-09-22",
       "tracked": false
@@ -220,26 +240,6 @@
       "context": 1000000,
       "released": "2026-09-18",
       "tracked": false
-    },
-    {
-      "name": "Qwen3.8 Omni Flash",
-      "provider": "Alibaba",
-      "source": "alibaba/qwen3.8-omni-flash",
-      "input": 0.15,
-      "output": 0.47,
-      "context": 1000000,
-      "released": "2026-09-17",
-      "tracked": false
-    },
-    {
-      "name": "GPT-6 Astra",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6-astra",
-      "input": 10,
-      "output": 50,
-      "context": 1050000,
-      "released": "2026-09-04",
-      "tracked": true
     }
   ]
 }
