@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "releases": [
     {
       "name": "Gemini 4 Hydrogen",
@@ -52,21 +52,21 @@
       "tracked": false
     },
     {
-      "name": "Kimi K3.1 Pro Highspeed",
-      "provider": "Moonshot",
-      "source": "moonshotai/kimi-k3.1-pro-highspeed",
-      "input": 4,
-      "output": 20,
-      "context": 1048576,
-      "released": "2026-10-23",
-      "tracked": false
-    },
-    {
       "name": "Kimi K3.1 Pro",
       "provider": "Moonshot",
       "source": "moonshotai/kimi-k3.1-pro",
       "input": 2,
       "output": 10,
+      "context": 1048576,
+      "released": "2026-10-23",
+      "tracked": false
+    },
+    {
+      "name": "Kimi K3.1 Pro Highspeed",
+      "provider": "Moonshot",
+      "source": "moonshotai/kimi-k3.1-pro-highspeed",
+      "input": 4,
+      "output": 20,
       "context": 1048576,
       "released": "2026-10-23",
       "tracked": false
@@ -82,14 +82,14 @@
       "tracked": false
     },
     {
-      "name": "DeepSeek V4 Flash",
+      "name": "DeepSeek V4.1 Flash 1017",
       "provider": "DeepSeek",
-      "source": "deepseek/deepseek-v4-flash",
+      "source": "deepseek/deepseek-flash",
       "input": 0.15,
       "output": 0.6,
       "context": 1048576,
       "released": "2026-10-17",
-      "tracked": true
+      "tracked": false
     },
     {
       "name": "DeepSeek V4 Flash Vision Exp",
@@ -102,14 +102,14 @@
       "tracked": false
     },
     {
-      "name": "DeepSeek V4.1 Flash 1017",
+      "name": "DeepSeek V4 Flash",
       "provider": "DeepSeek",
-      "source": "deepseek/deepseek-flash",
+      "source": "deepseek/deepseek-v4-flash",
       "input": 0.15,
       "output": 0.6,
       "context": 1048576,
       "released": "2026-10-17",
-      "tracked": false
+      "tracked": true
     },
     {
       "name": "Gemini 4 Argon",
@@ -142,9 +142,9 @@
       "tracked": false
     },
     {
-      "name": "Mistral Large 4.0.8",
+      "name": "Mistral Large (latest)",
       "provider": "Mistral",
-      "source": "mistral/mistral-large-4-0-8",
+      "source": "mistral/mistral-large-latest",
       "input": 0.7,
       "output": 2.1,
       "context": 1048576,
@@ -162,9 +162,9 @@
       "tracked": false
     },
     {
-      "name": "Mistral Large (latest)",
+      "name": "Mistral Large 4.0.8",
       "provider": "Mistral",
-      "source": "mistral/mistral-large-latest",
+      "source": "mistral/mistral-large-4-0-8",
       "input": 0.7,
       "output": 2.1,
       "context": 1048576,
@@ -202,21 +202,21 @@
       "tracked": false
     },
     {
-      "name": "GPT-6 Luna",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6-luna",
-      "input": 0.1,
-      "output": 0.5,
-      "context": 1050000,
-      "released": "2026-09-22",
-      "tracked": false
-    },
-    {
       "name": "GPT-6 Sol",
       "provider": "OpenAI",
       "source": "openai/gpt-6-sol",
       "input": 2,
       "output": 10,
+      "context": 1050000,
+      "released": "2026-09-22",
+      "tracked": false
+    },
+    {
+      "name": "GPT-6 Luna",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6-luna",
+      "input": 0.1,
+      "output": 0.5,
       "context": 1050000,
       "released": "2026-09-22",
       "tracked": false
