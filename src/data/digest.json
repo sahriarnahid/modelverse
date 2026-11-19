@@ -1,33 +1,23 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "priceChanges": [],
   "newReleases": [
     {
-      "name": "GPT-6.2 Sol",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6.2-sol",
-      "input": 2,
-      "output": 10,
-      "context": 1050000,
-      "released": "2026-11-17",
-      "tracked": false
-    },
-    {
-      "name": "GPT-6.2 Astra",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6.2-astra",
-      "input": 8,
-      "output": 40,
-      "context": 1050000,
-      "released": "2026-11-17",
+      "name": "Gemini 4 Neon",
+      "provider": "Google",
+      "source": "google/gemini-4-neon",
+      "input": 3,
+      "output": 15,
+      "context": 1048576,
+      "released": "2026-11-18",
       "tracked": false
     }
   ],
   "pickChanges": [
     {
       "category": "Best for long context",
-      "from": "GPT-5.6 Terra",
-      "to": "GPT-5.6 Luna"
+      "from": "GPT-5.6 Luna",
+      "to": "Gemini 3.8 Flash"
     }
   ]
 }
