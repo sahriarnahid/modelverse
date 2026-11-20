@@ -1,23 +1,12 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "priceChanges": [],
-  "newReleases": [
-    {
-      "name": "Gemini 4 Neon",
-      "provider": "Google",
-      "source": "google/gemini-4-neon",
-      "input": 3,
-      "output": 15,
-      "context": 1048576,
-      "released": "2026-11-18",
-      "tracked": false
-    }
-  ],
+  "newReleases": [],
   "pickChanges": [
     {
       "category": "Best for long context",
-      "from": "GPT-5.6 Luna",
-      "to": "Gemini 3.8 Flash"
+      "from": "Gemini 3.8 Flash",
+      "to": "GPT-5.6 Terra"
     }
   ]
 }

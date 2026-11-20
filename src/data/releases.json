@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "releases": [
     {
       "name": "Gemini 4 Neon",
@@ -122,16 +122,6 @@
       "tracked": false
     },
     {
-      "name": "DeepSeek V4 Flash",
-      "provider": "DeepSeek",
-      "source": "deepseek/deepseek-v4-flash",
-      "input": 0.15,
-      "output": 0.6,
-      "context": 1048576,
-      "released": "2026-10-17",
-      "tracked": true
-    },
-    {
       "name": "DeepSeek V4 Flash Vision Exp",
       "provider": "DeepSeek",
       "source": "deepseek/deepseek-v4-flash-vision-exp",
@@ -140,6 +130,16 @@
       "context": 1048576,
       "released": "2026-10-17",
       "tracked": false
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-v4-flash",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1048576,
+      "released": "2026-10-17",
+      "tracked": true
     },
     {
       "name": "Gemini 4 Argon",
@@ -172,6 +172,16 @@
       "tracked": false
     },
     {
+      "name": "Mistral Large 4",
+      "provider": "Mistral",
+      "source": "mistral/mistral-large-4",
+      "input": 0.7,
+      "output": 2.1,
+      "context": 1048576,
+      "released": "2026-10-06",
+      "tracked": false
+    },
+    {
       "name": "Mistral Large 4.0.8",
       "provider": "Mistral",
       "source": "mistral/mistral-large-4-0-8",
@@ -185,16 +195,6 @@
       "name": "Mistral Large (latest)",
       "provider": "Mistral",
       "source": "mistral/mistral-large-latest",
-      "input": 0.7,
-      "output": 2.1,
-      "context": 1048576,
-      "released": "2026-10-06",
-      "tracked": false
-    },
-    {
-      "name": "Mistral Large 4",
-      "provider": "Mistral",
-      "source": "mistral/mistral-large-4",
       "input": 0.7,
       "output": 2.1,
       "context": 1048576,

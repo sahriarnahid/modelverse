@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "source": "ai",
   "picks": [
     {
       "category": "Best for coding",
       "model": "Claude Sonnet 5",
-      "reason": "Offers top-tier coding performance with a 1M context window for $2 input and $10 output per 1M tokens."
+      "reason": "Excels at whole-repo refactors and terminal agents with a 1M context window for $2 input and $10 output per 1M tokens."
     },
     {
       "category": "Cheapest",
       "model": "DeepSeek V4 Flash",
-      "reason": "Provides the lowest combined pricing in the catalog at $0.15 input and $0.60 output per 1M tokens."
+      "reason": "Offers the lowest combined pricing at $0.15 input and $0.60 output per 1M tokens."
     },
     {
       "category": "Best value",
       "model": "DeepSeek V4 Pro",
-      "reason": "Delivers strong reasoning capabilities and long file support for a budget-friendly $0.66 input and $1.98 output per 1M tokens."
+      "reason": "Provides daily coding agent capabilities and long file reasoning at an economical $0.66 input and $1.98 output per 1M tokens."
     },
     {
       "category": "Best for reasoning",
       "model": "GPT-6 Astra",
-      "reason": "Excels at complex reasoning and research-heavy tasks within a 1,050,000 token context."
+      "reason": "Delivers top-tier complex reasoning and research-heavy work with a 1,050,000 token context."
     },
     {
       "category": "Best for long context",
-      "model": "Gemini 3.8 Flash",
-      "reason": "Handles large file processing efficiently across a massive 1,048,576 token context at just $0.75 input and $3.75 output per 1M tokens."
+      "model": "GPT-5.6 Terra",
+      "reason": "Combines a 1,050,000 token context with strong general coding performance at $2 input and $12 output per 1M tokens."
     },
     {
       "category": "Best free option",
       "model": "Gemini 3.8 Flash",
-      "reason": "Features explicit free-tier learning capabilities alongside fast iteration speeds and a 1M+ context window."
+      "reason": "Supports free-tier learning alongside large file processing and a 1,048,576 token context."
     }
   ]
 }
