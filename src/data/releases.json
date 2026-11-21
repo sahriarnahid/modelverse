@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "releases": [
     {
       "name": "Gemini 4 Neon",
@@ -82,21 +82,21 @@
       "tracked": false
     },
     {
-      "name": "Kimi K3.1 Pro",
-      "provider": "Moonshot",
-      "source": "moonshotai/kimi-k3.1-pro",
-      "input": 2,
-      "output": 10,
-      "context": 1048576,
-      "released": "2026-10-23",
-      "tracked": false
-    },
-    {
       "name": "Kimi K3.1 Pro Highspeed",
       "provider": "Moonshot",
       "source": "moonshotai/kimi-k3.1-pro-highspeed",
       "input": 4,
       "output": 20,
+      "context": 1048576,
+      "released": "2026-10-23",
+      "tracked": false
+    },
+    {
+      "name": "Kimi K3.1 Pro",
+      "provider": "Moonshot",
+      "source": "moonshotai/kimi-k3.1-pro",
+      "input": 2,
+      "output": 10,
       "context": 1048576,
       "released": "2026-10-23",
       "tracked": false
@@ -122,16 +122,6 @@
       "tracked": false
     },
     {
-      "name": "DeepSeek V4 Flash Vision Exp",
-      "provider": "DeepSeek",
-      "source": "deepseek/deepseek-v4-flash-vision-exp",
-      "input": 0.15,
-      "output": 0.6,
-      "context": 1048576,
-      "released": "2026-10-17",
-      "tracked": false
-    },
-    {
       "name": "DeepSeek V4 Flash",
       "provider": "DeepSeek",
       "source": "deepseek/deepseek-v4-flash",
@@ -140,6 +130,16 @@
       "context": 1048576,
       "released": "2026-10-17",
       "tracked": true
+    },
+    {
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-v4-flash-vision-exp",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1048576,
+      "released": "2026-10-17",
+      "tracked": false
     },
     {
       "name": "Gemini 4 Argon",
@@ -172,9 +172,9 @@
       "tracked": false
     },
     {
-      "name": "Mistral Large 4",
+      "name": "Mistral Large (latest)",
       "provider": "Mistral",
-      "source": "mistral/mistral-large-4",
+      "source": "mistral/mistral-large-latest",
       "input": 0.7,
       "output": 2.1,
       "context": 1048576,
@@ -192,9 +192,9 @@
       "tracked": false
     },
     {
-      "name": "Mistral Large (latest)",
+      "name": "Mistral Large 4",
       "provider": "Mistral",
-      "source": "mistral/mistral-large-latest",
+      "source": "mistral/mistral-large-4",
       "input": 0.7,
       "output": 2.1,
       "context": 1048576,
