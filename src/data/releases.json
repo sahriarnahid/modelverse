@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "releases": [
     {
       "name": "GPT-6.2 Astra Healthcare",
@@ -12,11 +12,11 @@
       "tracked": false
     },
     {
-      "name": "GPT-6 Astra Healthcare",
+      "name": "GPT-6.1 Sol Healthcare",
       "provider": "OpenAI",
-      "source": "openai/gpt-6-astra-healthcare",
-      "input": 10,
-      "output": 50,
+      "source": "openai/gpt-6.1-sol-healthcare",
+      "input": 2,
+      "output": 10,
       "context": 1050000,
       "released": "2026-11-24",
       "tracked": false
@@ -32,11 +32,11 @@
       "tracked": false
     },
     {
-      "name": "GPT-6.1 Sol Healthcare",
+      "name": "GPT-6 Astra Healthcare",
       "provider": "OpenAI",
-      "source": "openai/gpt-6.1-sol-healthcare",
-      "input": 2,
-      "output": 10,
+      "source": "openai/gpt-6-astra-healthcare",
+      "input": 10,
+      "output": 50,
       "context": 1050000,
       "released": "2026-11-24",
       "tracked": false
@@ -142,21 +142,21 @@
       "tracked": false
     },
     {
-      "name": "Kimi K3.1 Pro Highspeed",
-      "provider": "Moonshot",
-      "source": "moonshotai/kimi-k3.1-pro-highspeed",
-      "input": 4,
-      "output": 20,
-      "context": 1048576,
-      "released": "2026-10-23",
-      "tracked": false
-    },
-    {
       "name": "Kimi K3.1 Pro",
       "provider": "Moonshot",
       "source": "moonshotai/kimi-k3.1-pro",
       "input": 2,
       "output": 10,
+      "context": 1048576,
+      "released": "2026-10-23",
+      "tracked": false
+    },
+    {
+      "name": "Kimi K3.1 Pro Highspeed",
+      "provider": "Moonshot",
+      "source": "moonshotai/kimi-k3.1-pro-highspeed",
+      "input": 4,
+      "output": 20,
       "context": 1048576,
       "released": "2026-10-23",
       "tracked": false
@@ -182,6 +182,16 @@
       "tracked": false
     },
     {
+      "name": "DeepSeek V4.1 Flash 1017",
+      "provider": "DeepSeek",
+      "source": "deepseek/deepseek-flash",
+      "input": 0.15,
+      "output": 0.6,
+      "context": 1048576,
+      "released": "2026-10-17",
+      "tracked": false
+    },
+    {
       "name": "DeepSeek V4 Flash",
       "provider": "DeepSeek",
       "source": "deepseek/deepseek-v4-flash",
@@ -195,16 +205,6 @@
       "name": "DeepSeek V4 Flash Vision Exp",
       "provider": "DeepSeek",
       "source": "deepseek/deepseek-v4-flash-vision-exp",
-      "input": 0.15,
-      "output": 0.6,
-      "context": 1048576,
-      "released": "2026-10-17",
-      "tracked": false
-    },
-    {
-      "name": "DeepSeek V4.1 Flash 1017",
-      "provider": "DeepSeek",
-      "source": "deepseek/deepseek-flash",
       "input": 0.15,
       "output": 0.6,
       "context": 1048576,
