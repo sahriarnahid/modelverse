@@ -1,26 +1,6 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "releases": [
-    {
-      "name": "GPT-6.2 Astra Healthcare",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6.2-astra-healthcare",
-      "input": 8,
-      "output": 40,
-      "context": 1050000,
-      "released": "2026-11-24",
-      "tracked": false
-    },
-    {
-      "name": "GPT-6.1 Sol Healthcare",
-      "provider": "OpenAI",
-      "source": "openai/gpt-6.1-sol-healthcare",
-      "input": 2,
-      "output": 10,
-      "context": 1050000,
-      "released": "2026-11-24",
-      "tracked": false
-    },
     {
       "name": "GPT-6.2 Sol Healthcare",
       "provider": "OpenAI",
@@ -37,6 +17,26 @@
       "source": "openai/gpt-6-astra-healthcare",
       "input": 10,
       "output": 50,
+      "context": 1050000,
+      "released": "2026-11-24",
+      "tracked": false
+    },
+    {
+      "name": "GPT-6.1 Sol Healthcare",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6.1-sol-healthcare",
+      "input": 2,
+      "output": 10,
+      "context": 1050000,
+      "released": "2026-11-24",
+      "tracked": false
+    },
+    {
+      "name": "GPT-6.2 Astra Healthcare",
+      "provider": "OpenAI",
+      "source": "openai/gpt-6.2-astra-healthcare",
+      "input": 8,
+      "output": 40,
       "context": 1050000,
       "released": "2026-11-24",
       "tracked": false
@@ -182,9 +182,9 @@
       "tracked": false
     },
     {
-      "name": "DeepSeek V4 Flash Vision Exp",
+      "name": "DeepSeek V4.1 Flash 1017",
       "provider": "DeepSeek",
-      "source": "deepseek/deepseek-v4-flash-vision-exp",
+      "source": "deepseek/deepseek-flash",
       "input": 0.15,
       "output": 0.6,
       "context": 1048576,
@@ -202,9 +202,9 @@
       "tracked": true
     },
     {
-      "name": "DeepSeek V4.1 Flash 1017",
+      "name": "DeepSeek V4 Flash Vision Exp",
       "provider": "DeepSeek",
-      "source": "deepseek/deepseek-flash",
+      "source": "deepseek/deepseek-v4-flash-vision-exp",
       "input": 0.15,
       "output": 0.6,
       "context": 1048576,
